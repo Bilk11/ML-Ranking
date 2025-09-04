@@ -1,0 +1,775 @@
+LOINC_NUM,COMPONENT,PROPERTY,TIME_ASPCT,SYSTEM,SCALE_TYP,METHOD_TYP,CLASS,VersionLastChanged,STATUS,CLASSTYPE,ORDER_OBS,EXTERNAL_COPYRIGHT_NOTICE,EXAMPLE_UNITS,LONG_COMMON_NAME,EXAMPLE_UCUM_UNITS,VersionFirstReleased,LHCForms,FormalName
+2753-2,pH,LsCnc,Pt,Ser/Plas,SemiQn,,CHEM,2.75,ACTIVE,1,Both,,pH,"pH of Serum or Plasma",[pH],1.0,false,pH:LsCnc:Pt:Ser/Plas:SemiQn:
+46963-5,"Tube number",ID,Pt,Ser/Plas/Bld,Nom,,SPEC,2.73,ACTIVE,1,Observation,,,"Tube number of Serum, Plasma or Blood",,2.19,false,"Tube number:ID:Pt:Ser/Plas/Bld:Nom:"
+77136-0,Urea,SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,mmol/L,"Urea [Moles/volume] in Serum, Plasma or Blood",mmol/L,2.52,false,Urea:SCnc:Pt:Ser/Plas/Bld:Qn:
+15176-1,Cryoproteins,Prid,Pt,Ser/Plas,Nom,,CHEM,2.79,ACTIVE,1,Both,,,"Cryoproteins identified in Serum or Plasma",,1.0k,false,Cryoproteins:Prid:Pt:Ser/Plas:Nom:
+40860-9,Cytokines,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Cytokines [Presence] in Serum or Plasma",,2.15,false,Cytokines:PrThr:Pt:Ser/Plas:Ord:
+32619-9,Biotinidase,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Biotinidase [Presence] in Serum or Plasma",,2.09,false,Biotinidase:PrThr:Pt:Ser/Plas:Ord:
+2692-2,Observation,Osmol,Pt,Ser/Plas,Qn,,CHEM,2.79,ACTIVE,1,Both,,"mmol/kg H2O;mOsm/L; mOsmol/kg","Osmolality of Serum or Plasma",mosm/kg,1.0,false,Observation:Osmol:Pt:Ser/Plas:Qn:
+20395-0,"Sample integrity",Type,Pt,Ser/Plas,Nom,,SPEC,2.73,ACTIVE,1,Observation,,,"Sample integrity [Type] of Serum or Plasma",,1.0m,false,"Sample integrity:Type:Pt:Ser/Plas:Nom:"
+55453-5,Haptoglobin,-,Pt,Ser/Plas,-,,LABORDERS,2.66,DEPRECATED,1,Order,,,"Deprecated Haptoglobin in Serum or Plasma",,2.27,false,Haptoglobin:-:Pt:Ser/Plas:-:
+100898-6,"Lipid panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.73,ACTIVE,1,Order,,,"Lipid panel - Serum or Plasma",,2.73,true,"Lipid panel:-:Pt:Ser/Plas:-:"
+3065-0,Trypsinogen,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Trypsinogen [Presence] in Serum or Plasma",,1.0,false,Trypsinogen:PrThr:Pt:Ser/Plas:Ord:
+33805-3,Fructosamine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/L,"Fructosamine [Mass/volume] in Serum or Plasma",ng/L,2.09,false,Fructosamine:MCnc:Pt:Ser/Plas:Qn:
+95920-5,Galantamine,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.69,ACTIVE,1,Both,,ng/mL,"Galantamine [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.69,false,Galantamine:MCnc:Pt:Ser/Plas/Bld:Qn:
+77138-6,Chloride,SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,mmol/L,"Chloride [Moles/volume] in Serum, Plasma or Blood",mmol/L,2.52,false,Chloride:SCnc:Pt:Ser/Plas/Bld:Qn:
+48620-9,Cholesterol,MCnc,Pt,Ser/Plas.ultracentrifugate,Qn,,CHEM,2.40,ACTIVE,1,Both,,mg/dL,"Cholesterol [Mass/volume] in Serum or Plasma ultracentrifugate",mg/dL,2.21,false,Cholesterol:MCnc:Pt:Ser/Plas.ultracentrifugate:Qn:
+77139-4,Sodium,SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,mmol/L,"Sodium [Moles/volume] in Serum, Plasma or Blood",mmol/L,2.52,false,Sodium:SCnc:Pt:Ser/Plas/Bld:Qn:
+27351-6,Pantothenate,PrThr,Pt,Ser/Plas/Bld,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Pantothenate [Presence] in Serum, Plasma or Blood",,2.00,false,Pantothenate:PrThr:Pt:Ser/Plas/Bld:Ord:
+77142-8,Potassium,SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,mmol/L,"Potassium [Moles/volume] in Serum, Plasma or Blood",mmol/L,2.52,false,Potassium:SCnc:Pt:Ser/Plas/Bld:Qn:
+32046-5,"Pregnancy associated plasma protein A",ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,IU/L;mIU/L,"Pregnancy associated plasma protein A [Units/volume] in Serum or Plasma",[IU]/mL,2.07,false,"Pregnancy associated plasma protein A:ACnc:Pt:Ser/Plas:Qn:"
+48407-1,"Pregnancy associated plasma protein A",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/mL,"Pregnancy associated plasma protein A [Mass/volume] in Serum or Plasma",ng/mL,2.21,false,"Pregnancy associated plasma protein A:MCnc:Pt:Ser/Plas:Qn:"
+32123-2,"Pregnancy associated plasma protein A",MoM,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,M.o.M,"Pregnancy associated plasma protein A [Multiple of the median] in Serum or Plasma",{M.o.M},2.07,false,"Pregnancy associated plasma protein A:MoM:Pt:Ser/Plas:Qn:"
+76348-2,"Pregnancy associated plasma protein A^^adjusted",MoM,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,M.o.M,"Pregnancy associated plasma protein A [Multiple of the median] adjusted in Serum or Plasma",{M.o.M},2.52,false,"Pregnancy associated plasma protein A^^adjusted:MoM:Pt:Ser/Plas:Qn:"
+15069-8,Fructosamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"mcmol/L; mmol/L","Fructosamine [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Fructosamine:SCnc:Pt:Ser/Plas:Qn:
+53550-0,Fructosamine/Protein,Ratio,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/g,"Fructosamine/Protein [Ratio] in Serum or Plasma",umol/g,2.26,false,Fructosamine/Protein:Ratio:Pt:Ser/Plas:Qn:
+22676-1,7-Dehydrocholesterol,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"7-Dehydrocholesterol [Presence] in Serum or Plasma",,1.0n,false,7-Dehydrocholesterol:PrThr:Pt:Ser/Plas:Ord:
+31991-3,Acylcarnitine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.63,ACTIVE,1,Both,,,"Acylcarnitine [Presence] in Serum or Plasma",,2.07,false,Acylcarnitine:PrThr:Pt:Ser/Plas:Ord:
+43433-2,"Acylcarnitine panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.73,ACTIVE,1,Order,,,"Acylcarnitine panel - Serum or Plasma",,2.17,true,"Acylcarnitine panel:-:Pt:Ser/Plas:-:"
+47828-9,Adiponectin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Adiponectin [Mass/volume] in Serum or Plasma",mg/L,2.21,false,Adiponectin:MCnc:Pt:Ser/Plas:Qn:
+79581-5,Alanylproline,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Alanylproline [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Alanylproline:SCnc:Pt:Ser/Plas:Qn:
+75158-6,Allantoine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,umol/L,"Allantoine [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Allantoine:SCnc:Pt:Ser/Plas:Qn:
+38355-4,Chitotriosidase,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Chitotriosidase [Enzymatic activity/volume] in Serum or Plasma",U/L,2.14,false,Chitotriosidase:CCnc:Pt:Ser/Plas:Qn:
+80371-8,Chitotriosidase,CCnt,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,"nmol/H/mg protein","Chitotriosidase [Enzymatic activity/mass] in Serum or Plasma",nmol/h/mg{protein},2.54,false,Chitotriosidase:CCnt:Pt:Ser/Plas:Qn:
+2167-5,Cryoglobulin,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,DISCOURAGED,1,Both,,,"Cryoglobulin [Presence] in Serum or Plasma",,1.0,false,Cryoglobulin:PrThr:Pt:Ser/Plas:Ord:
+2172-5,Cystathionine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Cystathionine [Presence] in Serum or Plasma",,1.0,false,Cystathionine:PrThr:Pt:Ser/Plas:Ord:
+20641-7,Cysteine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Observation,,umol/L,"Cysteine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Cysteine:SCnc:Pt:Ser/Plas:Qn:
+27350-8,Cystine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Cystine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Cystine:ACnc:Pt:Ser/Plas:Qn:
+2176-6,Cystine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Cystine [Presence] in Serum or Plasma",,1.0,false,Cystine:PrThr:Pt:Ser/Plas:Ord:
+82335-1,"Cytokines panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.70,ACTIVE,1,Order,,,"Cytokines panel - Serum or Plasma",,2.58,true,"Cytokines panel:-:Pt:Ser/Plas:-:"
+79655-7,Cytosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Cytosine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Cytosine:SCnc:Pt:Ser/Plas:Qn:
+75039-8,Biopterin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,nmol/L,"Biopterin [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Biopterin:SCnc:Pt:Ser/Plas:Qn:
+1982-8,Biotinidase,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Biotinidase [Enzymatic activity/volume] in Serum or Plasma",U/L,1.0,false,Biotinidase:CCnc:Pt:Ser/Plas:Qn:
+80370-0,Biotinidase,CCnt,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,"nmol/H/mg protein","Biotinidase [Enzymatic activity/mass] in Serum or Plasma",nmol/h/mg{protein},2.54,false,Biotinidase:CCnt:Pt:Ser/Plas:Qn:
+12606-0,Dolichol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Observation,,ng/mL,"Dolichol [Mass/volume] in Serum or Plasma",ng/mL,1.0j-a,false,Dolichol:MCnc:Pt:Ser/Plas:Qn:
+2216-0,DOPamine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pg/mL,"DOPamine [Mass/volume] in Serum or Plasma",pg/mL,1.0,false,DOPamine:MCnc:Pt:Ser/Plas:Qn:
+14703-3,DOPamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"DOPamine [Moles/volume] in Serum or Plasma",nmol/L,1.0k,false,DOPamine:SCnc:Pt:Ser/Plas:Qn:
+75738-5,Campesterol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Campesterol [Mass/volume] in Serum or Plasma",mg/L,2.50,false,Campesterol:MCnc:Pt:Ser/Plas:Qn:
+58464-9,Campesterol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Campesterol [Moles/volume] in Serum or Plasma",umol/L,2.32,false,Campesterol:SCnc:Pt:Ser/Plas:Qn:
+9789-9,"Carbamate pesticides",Type,Pt,Ser/Plas,Nom,,DRUG/TOX,2.15,ACTIVE,1,Both,,,"Carbamate pesticides [Type] in Serum or Plasma",,1.0i,false,"Carbamate pesticides:Type:Pt:Ser/Plas:Nom:"
+2046-1,Carnitine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Carnitine [Mass/volume] in Serum or Plasma",,1.0,false,Carnitine:MCnc:Pt:Ser/Plas:Qn:
+2045-3,Carnitine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Carnitine [Presence] in Serum or Plasma",,1.0,false,Carnitine:PrThr:Pt:Ser/Plas:Ord:
+14288-5,Carnitine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"umol/L;mcmol/dL; mcmol/L; umole/L","Carnitine [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Carnitine:SCnc:Pt:Ser/Plas:Qn:
+34175-0,Analgesics,Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Analgesics [Identifier] in Serum or Plasma",,2.10,false,Analgesics:Prid:Pt:Ser/Plas:Nom:
+9640-4,Androstanediol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,ng/dL,"Androstanediol [Mass/volume] in Serum or Plasma",ng/dL,1.0i,false,Androstanediol:MCnc:Pt:Ser/Plas:Qn:
+15026-8,Androstanediol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,nmol/L,"Androstanediol [Moles/volume] in Serum or Plasma",nmol/L,1.0k,false,Androstanediol:SCnc:Pt:Ser/Plas:Qn:
+43826-7,Androstanolone,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Androstanolone [Presence] in Serum or Plasma",,2.17,false,Androstanolone:PrThr:Pt:Ser/Plas:Ord:
+43817-6,Androstenedione,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Androstenedione [Presence] in Serum or Plasma",,2.17,false,Androstenedione:PrThr:Pt:Ser/Plas:Ord:
+1856-4,Androsterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Androsterone [Mass/volume] in Serum or Plasma",mg/L,1.0,false,Androsterone:MCnc:Pt:Ser/Plas:Qn:
+15029-2,Androsterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,nmol/L,"Androsterone [Moles/volume] in Serum or Plasma",nmol/L,1.0k,false,Androsterone:SCnc:Pt:Ser/Plas:Qn:
+1865-5,Anserine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Anserine [Presence] in Serum or Plasma",,1.0,false,Anserine:PrThr:Pt:Ser/Plas:Ord:
+55219-0,Antioxidants,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.34,ACTIVE,1,Both,,,"Antioxidants [Moles/volume] in Serum or Plasma",,2.27,false,Antioxidants:SCnc:Pt:Ser/Plas:Qn:
+12344-8,Antipsychotics,Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.15,ACTIVE,1,Both,,,"Antipsychotics [Identifier] in Serum or Plasma",,1.0j-a,false,Antipsychotics:Prid:Pt:Ser/Plas:Nom:
+74368-2,Apelin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.46,ACTIVE,1,Both,,pg/mL,"Apelin [Mass/volume] in Serum or Plasma",pg/mL,2.46,false,Apelin:MCnc:Pt:Ser/Plas:Qn:
+27974-5,Arginine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Arginine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Arginine:ACnc:Pt:Ser/Plas:Qn:
+1893-7,Arginine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Arginine [Mass/volume] in Serum or Plasma",,1.0,false,Arginine:MCnc:Pt:Ser/Plas:Qn:
+1892-9,Arginine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Arginine [Presence] in Serum or Plasma",,1.0,false,Arginine:PrThr:Pt:Ser/Plas:Ord:
+20637-5,Arginine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Arginine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Arginine:SCnc:Pt:Ser/Plas:Qn:
+75739-3,Desmosterol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Desmosterol [Mass/volume] in Serum or Plasma",mg/L,2.50,false,Desmosterol:MCnc:Pt:Ser/Plas:Qn:
+74905-1,Desmosterol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,pmol/L,"Desmosterol [Moles/volume] in Serum or Plasma",pmol/L,2.48,false,Desmosterol:SCnc:Pt:Ser/Plas:Qn:
+79576-5,Allocystathionine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Allocystathionine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Allocystathionine:SCnc:Pt:Ser/Plas:Qn:
+2233-5,Epitestosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/dL,"Epitestosterone [Mass/volume] in Serum or Plasma",ng/dL,1.0,false,Epitestosterone:MCnc:Pt:Ser/Plas:Qn:
+15411-2,Ergosterol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.34,ACTIVE,1,Both,,,"Ergosterol [Mass/volume] in Serum or Plasma",,1.0k,false,Ergosterol:MCnc:Pt:Ser/Plas:Qn:
+54386-8,Dehydroascorbate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Dehydroascorbate [Moles/volume] in Serum or Plasma",umol/L,2.27,false,Dehydroascorbate:SCnc:Pt:Ser/Plas:Qn:
+75122-2,Deoxyadenosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,nmol/L,"Deoxyadenosine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Deoxyadenosine:SCnc:Pt:Ser/Plas:Qn:
+75134-7,Deoxyguanosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Deoxyguanosine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Deoxyguanosine:SCnc:Pt:Ser/Plas:Qn:
+75127-1,Deoxyinosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Deoxyinosine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Deoxyinosine:SCnc:Pt:Ser/Plas:Qn:
+47957-6,Deoxyuridine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Deoxyuridine [Moles/volume] in Serum or Plasma",umol/L,2.21,false,Deoxyuridine:SCnc:Pt:Ser/Plas:Qn:
+16918-5,Glutathione,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.34,ACTIVE,1,Both,,mg/dL,"Glutathione [Mass/volume] in Serum or Plasma",mg/dL,1.0l,false,Glutathione:MCnc:Pt:Ser/Plas:Qn:
+57005-1,Glutathione,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,umol/L,"Glutathione [Moles/volume] in Serum or Plasma",umol/L,2.29,false,Glutathione:SCnc:Pt:Ser/Plas:Qn:
+2387-9,Glycerol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Observation,,mg/dL,"Glycerol [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Glycerol:MCnc:Pt:Ser/Plas:Qn:
+45300-1,Glycerol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Glycerol [Moles/volume] in Serum or Plasma",umol/L,2.17,false,Glycerol:SCnc:Pt:Ser/Plas:Qn:
+2391-1,Glycine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Glycine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Glycine:MCnc:Pt:Ser/Plas:Qn:
+2390-3,Glycine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Glycine [Presence] in Serum or Plasma",,1.0,false,Glycine:PrThr:Pt:Ser/Plas:Ord:
+20644-1,Glycine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Glycine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Glycine:SCnc:Pt:Ser/Plas:Qn:
+93335-8,Glycochenodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Glycochenodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Glycochenodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+93334-1,Glycocholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Glycocholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Glycocholate:SCnc:Pt:Ser/Plas:Qn:
+93333-3,Glycodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Glycodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Glycodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+93332-5,Glycohyodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Glycohyodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Glycohyodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+93331-7,Glycolithocholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Glycolithocholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Glycolithocholate:SCnc:Pt:Ser/Plas:Qn:
+16920-1,Glycoproteins,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Glycoproteins [Presence] in Serum or Plasma",,1.0l,false,Glycoproteins:PrThr:Pt:Ser/Plas:Ord:
+93330-9,Glycoursodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Glycoursodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Glycoursodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+14723-1,Ferritin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pmol/L,"Ferritin [Moles/volume] in Serum or Plasma",pmol/L,1.0k,false,Ferritin:SCnc:Pt:Ser/Plas:Qn:
+49773-5,Galactitol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Galactitol [Moles/volume] in Serum or Plasma",umol/L,2.22,false,Galactitol:SCnc:Pt:Ser/Plas:Qn:
+2308-5,Galactose,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Galactose [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Galactose:MCnc:Pt:Ser/Plas:Qn:
+25426-8,Galactose,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.34,ACTIVE,1,Both,,umol/L,"Galactose [Moles/volume] in Serum or Plasma",umol/L,2.00,false,Galactose:SCnc:Pt:Ser/Plas:Qn:
+2050-3,Carnosine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.44,DISCOURAGED,1,Observation,,,"Carnosine [Mass/volume] in Serum or Plasma",,1.0,false,Carnosine:MCnc:Pt:Ser/Plas:Qn:
+2049-5,Carnosine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Carnosine [Presence] in Serum or Plasma",,1.0,false,Carnosine:PrThr:Pt:Ser/Plas:Ord:
+26606-4,Carnosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/dL; mcmol/L","Carnosine [Moles/volume] in Serum or Plasma",umol/L,2.00,false,Carnosine:SCnc:Pt:Ser/Plas:Qn:
+27995-0,Asparagine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Asparagine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Asparagine:ACnc:Pt:Ser/Plas:Qn:
+1908-3,Asparagine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Asparagine [Mass/volume] in Serum or Plasma",,1.0,false,Asparagine:MCnc:Pt:Ser/Plas:Qn:
+1907-5,Asparagine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Asparagine [Presence] in Serum or Plasma",,1.0,false,Asparagine:PrThr:Pt:Ser/Plas:Ord:
+20638-3,Asparagine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Asparagine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Asparagine:SCnc:Pt:Ser/Plas:Qn:
+1912-5,Aspartate,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Aspartate [Presence] in Serum or Plasma",,1.0,false,Aspartate:PrThr:Pt:Ser/Plas:Ord:
+79585-6,Aspartylglycine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Aspartylglycine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Aspartylglycine:SCnc:Pt:Ser/Plas:Qn:
+2856-3,Prostaglandin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Both,,pg/mL,"Prostaglandin [Mass/volume] in Serum or Plasma",pg/mL,1.0,false,Prostaglandin:MCnc:Pt:Ser/Plas:Qn:
+2845-6,Proline,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Proline [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Proline:MCnc:Pt:Ser/Plas:Qn:
+2844-9,Proline,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Proline [Presence] in Serum or Plasma",,1.0,false,Proline:PrThr:Pt:Ser/Plas:Ord:
+20655-7,Proline,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Proline [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Proline:SCnc:Pt:Ser/Plas:Qn:
+2837-3,Pregnenolone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/dL,"Pregnenolone [Mass/volume] in Serum or Plasma",ng/dL,1.0,false,Pregnenolone:MCnc:Pt:Ser/Plas:Qn:
+25507-5,Pregnenolone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Pregnenolone [Moles/volume] in Serum or Plasma",nmol/L,2.00,false,Pregnenolone:SCnc:Pt:Ser/Plas:Qn:
+17611-5,Stimulants,Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.07,ACTIVE,1,Both,,,"Stimulants [Identifier] in Serum or Plasma",,1.0l,false,Stimulants:Prid:Pt:Ser/Plas:Nom:
+80169-6,"Pterins panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.54,ACTIVE,1,Order,,,"Pterins panel - Serum or Plasma",,2.54,true,"Pterins panel:-:Pt:Ser/Plas:-:"
+55948-4,Nitrite,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Nitrite [Moles/volume] in Serum or Plasma",umol/L,2.29,false,Nitrite:SCnc:Pt:Ser/Plas:Qn:
+27335-9,Ornithine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Ornithine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Ornithine:ACnc:Pt:Ser/Plas:Qn:
+2679-9,Ornithine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Ornithine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Ornithine:MCnc:Pt:Ser/Plas:Qn:
+20652-4,Ornithine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Ornithine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Ornithine:SCnc:Pt:Ser/Plas:Qn:
+33264-3,"Osmol gap",Osmol,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mOsm/kg,"Osmol gap of Serum or Plasma",mosm/kg,2.09,false,"Osmol gap:Osmol:Pt:Ser/Plas:Qn:"
+2678-1,Ornithine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Ornithine [Presence] in Serum or Plasma",,1.0,false,Ornithine:PrThr:Pt:Ser/Plas:Ord:
+75125-5,Orotidine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,nmol/L,"Orotidine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Orotidine:SCnc:Pt:Ser/Plas:Qn:
+2082-6,Cholestanol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,ug/mL,"Cholestanol [Mass/volume] in Serum or Plasma",ug/mL,1.0,false,Cholestanol:MCnc:Pt:Ser/Plas:Qn:
+74432-6,Cholestanol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.46,ACTIVE,1,Both,,umol/L,"Cholestanol [Moles/volume] in Serum or Plasma",umol/L,2.46,false,Cholestanol:SCnc:Pt:Ser/Plas:Qn:
+17248-6,Melanin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Both,,,"Melanin [Units/volume] in Serum or Plasma",[arb'U]/mL,1.0l,false,Melanin:ACnc:Pt:Ser/Plas:Qn:
+12721-7,Melatonin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Melatonin [Units/volume] in Serum or Plasma",[arb'U]/mL,1.0j-a,false,Melatonin:ACnc:Pt:Ser/Plas:Qn:
+11055-1,Melatonin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pg/mL,"Melatonin [Mass/volume] in Serum or Plasma",pg/mL,1.0j-a,false,Melatonin:MCnc:Pt:Ser/Plas:Qn:
+2124-6,Chymotrypsin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,ug/L,"Chymotrypsin [Mass/volume] in Serum or Plasma",ug/L,1.0,false,Chymotrypsin:MCnc:Pt:Ser/Plas:Qn:
+2129-5,Citrulline,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Citrulline [Presence] in Serum or Plasma",,1.0,false,Citrulline:PrThr:Pt:Ser/Plas:Ord:
+44323-4,Iodine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Iodine [Presence] in Serum or Plasma",,2.17,false,Iodine:PrThr:Pt:Ser/Plas:Ord:
+93974-4,Iohexol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,ug/mL,"Iohexol [Mass/volume] in Serum or Plasma",ug/mL,2.67,false,Iohexol:MCnc:Pt:Ser/Plas:Qn:
+93980-1,Iothalamate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,ug/mL,"Iothalamate [Mass/volume] in Serum or Plasma",ug/mL,2.67,false,Iothalamate:MCnc:Pt:Ser/Plas:Qn:
+14797-5,Iron,Imp,Pt,Ser/Plas,Nom,,CHEM,2.26,ACTIVE,1,Observation,,,"Iron [Interpretation] in Serum or Plasma",,1.0k,false,Iron:Imp:Pt:Ser/Plas:Nom:
+44326-7,Iron,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Iron [Presence] in Serum or Plasma",,2.17,false,Iron:PrThr:Pt:Ser/Plas:Ord:
+14798-3,Iron,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Iron [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Iron:SCnc:Pt:Ser/Plas:Qn:
+2508-0,Isoleucine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Isoleucine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Isoleucine:MCnc:Pt:Ser/Plas:Qn:
+2507-2,Isoleucine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Isoleucine [Presence] in Serum or Plasma",,1.0,false,Isoleucine:PrThr:Pt:Ser/Plas:Ord:
+20648-2,Isoleucine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Isoleucine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Isoleucine:SCnc:Pt:Ser/Plas:Qn:
+79316-6,Isoxanthopterin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,nmol/L,"Isoxanthopterin [Moles/volume] in Serum or Plasma",nmol/L,2.54,false,Isoxanthopterin:SCnc:Pt:Ser/Plas:Qn:
+53470-1,Kynurenin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,nmol/L,"Kynurenin [Moles/volume] in Serum or Plasma",nmol/L,2.26,false,Kynurenin:SCnc:Pt:Ser/Plas:Qn:
+2552-8,Lactose,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Lactose [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Lactose:MCnc:Pt:Ser/Plas:Qn:
+74898-8,Lanosterol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,pmol/L,"Lanosterol [Moles/volume] in Serum or Plasma",pmol/L,2.48,false,Lanosterol:SCnc:Pt:Ser/Plas:Qn:
+75740-1,Lathosterol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Lathosterol [Mass/volume] in Serum or Plasma",mg/L,2.50,false,Lathosterol:MCnc:Pt:Ser/Plas:Qn:
+77373-9,Lathosterol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,pmol/L,"Lathosterol [Moles/volume] in Serum or Plasma",pmol/L,2.52,false,Lathosterol:SCnc:Pt:Ser/Plas:Qn:
+54238-1,LDL.oxidized,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","LDL.oxidized [Units/volume] in Serum or Plasma",[arb'U]/L,2.27,false,LDL.oxidized:ACnc:Pt:Ser/Plas:Qn:
+2416-6,Histamine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/mL,"Histamine [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Histamine:MCnc:Pt:Ser/Plas:Qn:
+34316-0,Histamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Histamine [Moles/volume] in Serum or Plasma",nmol/L,2.10,false,Histamine:SCnc:Pt:Ser/Plas:Qn:
+2421-6,Histidine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Histidine [Presence] in Serum or Plasma",,1.0,false,Histidine:PrThr:Pt:Ser/Plas:Ord:
+79602-9,Homocarnosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Homocarnosine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Homocarnosine:SCnc:Pt:Ser/Plas:Qn:
+2584-1,Lysine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Lysine [Presence] in Serum or Plasma",,1.0,false,Lysine:PrThr:Pt:Ser/Plas:Ord:
+15358-5,Macroamylase,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Macroamylase [Presence] in Serum or Plasma",,1.0k,false,Macroamylase:PrThr:Pt:Ser/Plas:Ord:
+2612-0,Methemalbumin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Methemalbumin [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Methemalbumin:MCnc:Pt:Ser/Plas:Qn:
+17263-5,Methemalbumin,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Methemalbumin [Presence] in Serum or Plasma",,1.0l,false,Methemalbumin:PrThr:Pt:Ser/Plas:Ord:
+27953-9,Methionine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Methionine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Methionine:ACnc:Pt:Ser/Plas:Qn:
+2622-9,Methionine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Methionine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Methionine:MCnc:Pt:Ser/Plas:Qn:
+2621-1,Methionine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Methionine [Presence] in Serum or Plasma",,1.0,false,Methionine:PrThr:Pt:Ser/Plas:Ord:
+20651-6,Methionine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Methionine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Methionine:SCnc:Pt:Ser/Plas:Qn:
+101137-8,MNS29,PrThr,Pt,Ser/Plas,Ord,,BLDBK,2.75,ACTIVE,1,Observation,,,"MNS29 [Presence] in Serum or Plasma",,2.74,false,MNS29:PrThr:Pt:Ser/Plas:Ord:
+13130-0,Motilin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Both,,,"Motilin [Units/volume] in Serum or Plasma",[arb'U]/mL,1.0j-a,false,Motilin:ACnc:Pt:Ser/Plas:Qn:
+13891-7,Motilin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,pg/mL,"Motilin [Mass/volume] in Serum or Plasma",pg/mL,1.0k,false,Motilin:MCnc:Pt:Ser/Plas:Qn:
+2936-3,Serine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Serine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Serine:MCnc:Pt:Ser/Plas:Qn:
+2935-5,Serine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Serine [Presence] in Serum or Plasma",,1.0,false,Serine:PrThr:Pt:Ser/Plas:Ord:
+20656-5,Serine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Serine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Serine:SCnc:Pt:Ser/Plas:Qn:
+90238-7,Salicylcarnitine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.65,ACTIVE,1,Both,,nmol/mL,"Salicylcarnitine [Moles/volume] in Serum or Plasma",nmol/mL,2.65,false,Salicylcarnitine:SCnc:Pt:Ser/Plas:Qn:
+2930-6,Sarcosine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Sarcosine [Presence] in Serum or Plasma",,1.0,false,Sarcosine:PrThr:Pt:Ser/Plas:Ord:
+78959-4,Hyocholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Hyocholate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Hyocholate:SCnc:Pt:Ser/Plas:Qn:
+96500-4,"Hyperoxaluria panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.69,ACTIVE,1,Order,,,"Hyperoxaluria panel - Serum or Plasma",,2.69,true,"Hyperoxaluria panel:-:Pt:Ser/Plas:-:"
+75135-4,Hypoxanthine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Hypoxanthine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Hypoxanthine:SCnc:Pt:Ser/Plas:Qn:
+76474-6,Ghrelin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.68,ACTIVE,1,Both,,ng/L,"Ghrelin [Mass/volume] in Serum or Plasma",ng/L,2.52,false,Ghrelin:MCnc:Pt:Ser/Plas:Qn:
+80093-8,Glucosamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Glucosamine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Glucosamine:SCnc:Pt:Ser/Plas:Qn:
+2363-0,Glutamate,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Glutamate [Presence] in Serum or Plasma",,1.0,false,Glutamate:PrThr:Pt:Ser/Plas:Ord:
+2372-1,Glutamine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Glutamine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Glutamine:MCnc:Pt:Ser/Plas:Qn:
+2371-3,Glutamine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Glutamine [Presence] in Serum or Plasma",,1.0,false,Glutamine:PrThr:Pt:Ser/Plas:Ord:
+20643-3,Glutamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Glutamine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Glutamine:SCnc:Pt:Ser/Plas:Qn:
+27174-2,Inhibin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,IU/mL,"Inhibin [Units/volume] in Serum or Plasma",[IU]/mL,2.00,false,Inhibin:ACnc:Pt:Ser/Plas:Qn:
+21365-2,Leptin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/L;ng/mL,"Leptin [Mass/volume] in Serum or Plasma",ng/mL,1.0m,false,Leptin:MCnc:Pt:Ser/Plas:Qn:
+2560-1,Leucine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Leucine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Leucine:MCnc:Pt:Ser/Plas:Qn:
+2559-3,Leucine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Leucine [Presence] in Serum or Plasma",,1.0,false,Leucine:PrThr:Pt:Ser/Plas:Ord:
+20649-0,Leucine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Leucine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Leucine:SCnc:Pt:Ser/Plas:Qn:
+59062-0,"Lipoprofile panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.73,ACTIVE,1,Order,,,"Lipoprofile panel - Serum or Plasma",,2.32,true,"Lipoprofile panel:-:Pt:Ser/Plas:-:"
+17085-2,Lipoprotein,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Lipoproteins [Presence] in Serum or Plasma",,1.0l,false,Lipoprotein:PrThr:Pt:Ser/Plas:Ord:
+16872-4,Fluorocarbons,Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.19,ACTIVE,1,Both,,,"Fluorocarbons [Identifier] in Serum or Plasma",,1.0l,false,Fluorocarbons:Prid:Pt:Ser/Plas:Nom:
+75150-3,Inosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Inosine [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Inosine:SCnc:Pt:Ser/Plas:Qn:
+55458-4,Interferon.alpha,-,Pt,Ser/Plas,-,,LABORDERS,2.66,DEPRECATED,1,Order,,,"Deprecated Interferon alpha in Serum or Plasma",,2.27,false,Interferon.alpha:-:Pt:Ser/Plas:-:
+34908-4,Neopterin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/mL,"Neopterin [Mass/volume] in Serum or Plasma",ng/mL,2.11,false,Neopterin:MCnc:Pt:Ser/Plas:Qn:
+9740-2,Neopterin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,nmol/L,"Neopterin [Moles/volume] in Serum or Plasma",nmol/L,1.0i,false,Neopterin:SCnc:Pt:Ser/Plas:Qn:
+2654-2,Neurophysin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,ng/mL,"Neurophysin [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Neurophysin:MCnc:Pt:Ser/Plas:Qn:
+49013-6,Pancreastatin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pg/mL,"Pancreastatin [Mass/volume] in Serum or Plasma",pg/mL,2.21,false,Pancreastatin:MCnc:Pt:Ser/Plas:Qn:
+27362-3,Phenylalanine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,"arb U/mL","Phenylalanine [Units/volume] in Serum or Plasma",[arb'U],2.00,false,Phenylalanine:ACnc:Pt:Ser/Plas:Qn:
+2764-9,Phenylalanine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Phenylalanine [Presence] in Serum or Plasma",,1.0,false,Phenylalanine:PrThr:Pt:Ser/Plas:Ord:
+79472-7,Phenylpropionylglycine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Phenylpropionylglycine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Phenylpropionylglycine:SCnc:Pt:Ser/Plas:Qn:
+17458-1,Phosphoethanolamine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Phosphoethanolamine [Presence] in Serum or Plasma",,1.0l,false,Phosphoethanolamine:PrThr:Pt:Ser/Plas:Ord:
+10838-1,Phosphoserine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Phosphoserine [Mass/volume] in Serum or Plasma",mg/dL,1.0j-a,false,Phosphoserine:MCnc:Pt:Ser/Plas:Qn:
+17461-5,Phosphoserine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Phosphoserine [Presence] in Serum or Plasma",,1.0l,false,Phosphoserine:PrThr:Pt:Ser/Plas:Ord:
+20654-0,Phosphoserine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Phosphoserine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Phosphoserine:SCnc:Pt:Ser/Plas:Qn:
+33050-6,"Pseudocholinesterase phenotype",Prid,Pt,Ser/Plas,Nom,,CHEM,2.73,ACTIVE,1,Both,,,"Pseudocholinesterase phenotype [Identifier] in Serum or Plasma",,2.09,false,"Pseudocholinesterase phenotype:Prid:Pt:Ser/Plas:Nom:"
+13019-5,Pesticides,Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Pesticides [Identifier] in Serum or Plasma",,1.0j-a,false,Pesticides:Prid:Pt:Ser/Plas:Nom:
+92740-0,"Oxysterols panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.66,ACTIVE,1,Order,,,"Oxysterols panel - Serum or Plasma",,2.66,true,"Oxysterols panel:-:Pt:Ser/Plas:-:"
+35415-9,Oxytocin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,uIU/mL,"Oxytocin [Units/volume] in Serum or Plasma",[arb'U]/mL,2.13,false,Oxytocin:ACnc:Pt:Ser/Plas:Qn:
+100426-6,Squalene,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Squalene [Mass/volume] in Serum or Plasma",mg/L,2.73,false,Squalene:MCnc:Pt:Ser/Plas:Qn:
+79326-5,Squalene,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Squalene [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Squalene:SCnc:Pt:Ser/Plas:Qn:
+100427-4,Stigmasterol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Stigmasterol [Mass/volume] in Serum or Plasma",mg/L,2.73,false,Stigmasterol:MCnc:Pt:Ser/Plas:Qn:
+74886-3,Stigmasterol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,pmol/L,"Stigmasterol [Moles/volume] in Serum or Plasma",pmol/L,2.48,false,Stigmasterol:SCnc:Pt:Ser/Plas:Qn:
+79511-2,Suberylglycine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Suberylglycine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Suberylglycine:SCnc:Pt:Ser/Plas:Qn:
+26896-1,Taurine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Taurine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Taurine:ACnc:Pt:Ser/Plas:Qn:
+2981-9,Taurine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Taurine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Taurine:MCnc:Pt:Ser/Plas:Qn:
+2980-1,Taurine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Taurine [Presence] in Serum or Plasma",,1.0,false,Taurine:PrThr:Pt:Ser/Plas:Ord:
+20657-3,Taurine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Taurine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Taurine:SCnc:Pt:Ser/Plas:Qn:
+93328-3,Taurochenodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Taurochenodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Taurochenodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+93327-5,Taurocholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Taurocholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Taurocholate:SCnc:Pt:Ser/Plas:Qn:
+93326-7,Taurodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Taurodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Taurodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+93325-9,Taurohyodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Taurohyodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Taurohyodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+93324-2,Taurolithocholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Taurolithocholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Taurolithocholate:SCnc:Pt:Ser/Plas:Qn:
+93323-4,Tauroursodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,nmol/mL,"Tauroursodeoxycholate [Moles/volume] in Serum or Plasma",nmol/mL,2.67,false,Tauroursodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+21564-0,Thiosulfate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/mL,"Thiosulfate [Mass/volume] in Serum or Plasma",ug/mL,1.0m,false,Thiosulfate:MCnc:Pt:Ser/Plas:Qn:
+26897-9,Threonine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Threonine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Threonine:ACnc:Pt:Ser/Plas:Qn:
+3008-0,Threonine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Threonine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Threonine:MCnc:Pt:Ser/Plas:Qn:
+3007-2,Threonine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Threonine [Presence] in Serum or Plasma",,1.0,false,Threonine:PrThr:Pt:Ser/Plas:Ord:
+20658-1,Threonine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Threonine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Threonine:SCnc:Pt:Ser/Plas:Qn:
+48162-2,Thymidine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Thymidine [Moles/volume] in Serum or Plasma",umol/L,2.21,false,Thymidine:SCnc:Pt:Ser/Plas:Qn:
+75121-4,Thymine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Thymine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Thymine:SCnc:Pt:Ser/Plas:Qn:
+55462-6,Thyrotropin,-,Pt,Ser/Plas,-,,LABORDERS,2.66,DEPRECATED,1,Order,,,"Deprecated Thyrotropin in Serum or Plasma",,2.27,false,Thyrotropin:-:Pt:Ser/Plas:-:
+33325-2,Trypsin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/mL,"Trypsin [Mass/volume] in Serum or Plasma",ng/mL,2.09,false,Trypsin:MCnc:Pt:Ser/Plas:Qn:
+17750-1,Trypsinogen,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Trypsinogen [Enzymatic activity/volume] in Serum or Plasma",U/L,1.0l,false,Trypsinogen:CCnc:Pt:Ser/Plas:Qn:
+3066-8,Trypsinogen,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/L,"Trypsinogen [Mass/volume] in Serum or Plasma",ug/L,1.0,false,Trypsinogen:MCnc:Pt:Ser/Plas:Qn:
+12733-2,Tryptase,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Tryptase [Enzymatic activity/volume] in Serum or Plasma",U/L,1.0j-a,false,Tryptase:CCnc:Pt:Ser/Plas:Qn:
+21582-2,Tryptase,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/L;ng/mL,"Tryptase [Mass/volume] in Serum or Plasma",ng/mL,1.0m,false,Tryptase:MCnc:Pt:Ser/Plas:Qn:
+3069-2,Tryptophan,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Tryptophan [Presence] in Serum or Plasma",,1.0,false,Tryptophan:PrThr:Pt:Ser/Plas:Ord:
+75152-9,Uracil,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Uracil [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Uracil:SCnc:Pt:Ser/Plas:Qn:
+22664-7,Urea,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,mmol/L,"Urea [Moles/volume] in Serum or Plasma",mmol/L,1.0n,false,Urea:SCnc:Pt:Ser/Plas:Qn:
+51834-0,Tryptase,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,nmol/L,"Tryptase [Moles/volume] in Serum or Plasma",nmol/L,2.24,false,Tryptase:SCnc:Pt:Ser/Plas:Qn:
+40681-9,Turbidity,PrThr,Pt,Ser/Plas,Ord,,SPEC,2.56,ACTIVE,1,Observation,,,"Turbidity [Presence] of Serum or Plasma Qualitative",,2.15,false,Turbidity:PrThr:Pt:Ser/Plas:Ord:
+27361-5,Tyrosine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Both,,,"Tyrosine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Tyrosine:ACnc:Pt:Ser/Plas:Qn:
+3079-1,Tyrosine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Tyrosine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Tyrosine:MCnc:Pt:Ser/Plas:Qn:
+3078-3,Tyrosine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Tyrosine [Presence] in Serum or Plasma",,1.0,false,Tyrosine:PrThr:Pt:Ser/Plas:Ord:
+96043-5,Uracil,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.69,ACTIVE,1,Both,,ng/mL,"Uracil [Mass/volume] in Serum or Plasma",ng/mL,2.69,false,Uracil:MCnc:Pt:Ser/Plas:Qn:
+3091-6,Urea,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Urea [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Urea:MCnc:Pt:Ser/Plas:Qn:
+75159-4,Uridine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Uridine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Uridine:SCnc:Pt:Ser/Plas:Qn:
+3118-7,Valine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Valine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Valine:MCnc:Pt:Ser/Plas:Qn:
+3117-9,Valine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Valine [Presence] in Serum or Plasma",,1.0,false,Valine:PrThr:Pt:Ser/Plas:Ord:
+20661-5,Valine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Valine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Valine:SCnc:Pt:Ser/Plas:Qn:
+79512-0,Vanilloylglycine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Vanilloylglycine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Vanilloylglycine:SCnc:Pt:Ser/Plas:Qn:
+75144-6,Xanthine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Xanthine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Xanthine:SCnc:Pt:Ser/Plas:Qn:
+41240-3,Xanthurenate,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Xanthurenate [Presence] in Serum or Plasma",,2.15,false,Xanthurenate:PrThr:Pt:Ser/Plas:Ord:
+77140-2,Creatinine,SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,umol/L,"Creatinine [Moles/volume] in Serum, Plasma or Blood",umol/L,2.52,false,Creatinine:SCnc:Pt:Ser/Plas/Bld:Qn:
+77137-8,Bilirubin,SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,umol/L,"Bilirubin.total [Moles/volume] in Serum, Plasma or Blood",umol/L,2.52,false,Bilirubin:SCnc:Pt:Ser/Plas/Bld:Qn:
+9738-6,Gabapentin,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Gabapentin [Mass/volume] in Serum, Plasma or Blood",ug/mL,1.0i,false,Gabapentin:MCnc:Pt:Ser/Plas/Bld:Qn:
+73933-4,Normeperidine,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Normeperidine [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.44,false,Normeperidine:MCnc:Pt:Ser/Plas/Bld:Qn:
+74774-1,Glucose,MCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dl,"Glucose [Mass/volume] in Serum, Plasma or Blood",mg/dL,2.48,false,Glucose:MCnc:Pt:Ser/Plas/Bld:Qn:
+77135-2,Glucose,SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,mmol/L,"Glucose [Moles/volume] in Serum, Plasma or Blood",mmol/L,2.52,false,Glucose:SCnc:Pt:Ser/Plas/Bld:Qn:
+2722-7,Pantothenate,MCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/mL,"Pantothenate [Mass/volume] in Serum, Plasma or Blood",ug/mL,1.0,false,Pantothenate:MCnc:Pt:Ser/Plas/Bld:Qn:
+96403-1,"Renal clearance & Renal plasma flow panel",-,Stdy,Urine+Ser/Plas,Qn,,PANEL.CHEM,2.69,ACTIVE,1,Order,,,"Renal clearance and Renal plasma flow panel - Urine and Serum or Plasma",,2.69,true,"Renal clearance & Renal plasma flow panel:-:Stdy:Urine+Ser/Plas:Qn:"
+73829-4,7-Aminoflunitrazepam,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"7-Aminoflunitrazepam [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.44,false,7-Aminoflunitrazepam:MCnc:Pt:Ser/Plas/Bld:Qn:
+34575-1,8-Hydroxyloxapine,PrThr,Pt,Ser/Plas/Bld,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"8-Hydroxyloxapine [Presence] in Serum, Plasma or Blood",,2.10,false,8-Hydroxyloxapine:PrThr:Pt:Ser/Plas/Bld:Ord:
+66765-9,"Albumin.pericard fld/Albumin.SerPl",RelRto,Pt,"Pericard fld+Ser/Plas",Qn,,CHEM,2.70,ACTIVE,1,Observation,,Ratio,"Albumin in pericardial fld/Albumin in Serum or Plasma",{ratio},2.38,false,"Albumin.pericard fld/Albumin.SerPl:RelRto:Pt:Pericard fld+Ser/Plas:Qn:"
+66766-7,"Albumin.periton fld/Albumin.SerPl",RelRto,Pt,"Periton fld+Ser/Plas",Qn,,CHEM,2.70,ACTIVE,1,Observation,,Ratio,"Albumin in peritoneal fluid/Albumin in Serum or Plasma",{ratio},2.38,false,"Albumin.periton fld/Albumin.SerPl:RelRto:Pt:Periton fld+Ser/Plas:Qn:"
+39802-4,"Creatinine dial fld/Creatinine ser_plas",RelRto,Pt,"Dial fld+Ser/Plas",Qn,,CHEM,2.70,ACTIVE,1,Observation,,mol/mol,"Creatinine in dialysis fluid/Creatinine in serum or plasma",mol/mol,2.15,false,"Creatinine dial fld/Creatinine ser_plas:RelRto:Pt:Dial fld+Ser/Plas:Qn:"
+77143-6,"Carbon dioxide",SCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.68,ACTIVE,1,Both,,mmol/L,"Carbon dioxide, total [Moles/volume] in Serum, Plasma or Blood",mmol/L,2.52,false,"Carbon dioxide:SCnc:Pt:Ser/Plas/Bld:Qn:"
+3376-1,Barbiturates,PrThr,Pt,Ser/Plas/Bld,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Barbiturates [Presence] in Serum, Plasma or Blood",,1.0,false,Barbiturates:PrThr:Pt:Ser/Plas/Bld:Ord:
+77146-9,Amylase,CCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Amylase [Enzymatic activity/volume] in Serum, Plasma or Blood",U/L,2.52,false,Amylase:CCnc:Pt:Ser/Plas/Bld:Qn:
+77341-6,"Anion gap",SCnc,Pt,Ser/Plas/Bld,Qn,Calculated.4Ions,CHEM,2.79,ACTIVE,1,Observation,,mmol/L,"Anion gap in Serum, Plasma or Blood by Calculated.4Ions",mmol/L,2.52,false,"Anion gap:SCnc:Pt:Ser/Plas/Bld:Qn:Calculated.4Ions"
+100962-0,"Dengue virus Ab.IgG Panel",-,Pt,Ser/Plas/Bld,-,,PANEL.MICRO,2.73,ACTIVE,1,Order,,,"Dengue virus Ab.IgG Panel - Serum, Plasma or Blood",,2.73,false,"Dengue virus Ab.IgG Panel:-:Pt:Ser/Plas/Bld:-:"
+87496-6,Gabapentin,PrThr,Pt,Ser/Plas/Bld,Ord,Screen,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Gabapentin [Presence] in Serum, Plasma or Blood by Screen method",,2.63,false,Gabapentin:PrThr:Pt:Ser/Plas/Bld:Ord:Screen
+105126-7,"C reactive protein",MCnc,Pt,Ser/Plas/Bld,Qn,,CHEM,2.78,ACTIVE,1,Both,,mg/dL,"C reactive protein [Mass/volume] in Serum, Plasma or Blood",mg/dL,2.78,false,"C reactive protein:MCnc:Pt:Ser/Plas/Bld:Qn:"
+75370-7,Norbuprenorphine,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Norbuprenorphine [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.50,false,Norbuprenorphine:MCnc:Pt:Ser/Plas/Bld:Qn:
+48618-3,"Cholesterol.in VLDL",MCnc,Pt,Ser/Plas.ultracentrifugate,Qn,,CHEM,2.34,ACTIVE,1,Both,,mg/dL,"Cholesterol in VLDL [Mass/volume] in Serum or Plasma ultracentrifugate",mg/dL,2.21,false,"Cholesterol.in VLDL:MCnc:Pt:Ser/Plas.ultracentrifugate:Qn:"
+74647-9,Methylenedioxyamphetamine,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Methylenedioxyamphetamine [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.48,false,Methylenedioxyamphetamine:MCnc:Pt:Ser/Plas/Bld:Qn:
+74652-9,Methylenedioxymethamphetamine,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Methylenedioxymethamphetamine [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.48,false,Methylenedioxymethamphetamine:MCnc:Pt:Ser/Plas/Bld:Qn:
+74131-4,Morphine,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Morphine [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.46,false,Morphine:MCnc:Pt:Ser/Plas/Bld:Qn:
+104873-5,"Glucose dumping syndrome panel",-,Pt,Ser/Plas/Bld,-,,PANEL.HEM/BC,2.78,ACTIVE,1,Order,,,"Glucose dumping syndrome panel - Serum, Plasma or Blood",,2.78,true,"Glucose dumping syndrome panel:-:Pt:Ser/Plas/Bld:-:"
+5646-5,"Ethylene glycol",MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,"mcg/mL; mg/dL","Ethylene glycol [Mass/volume] in Serum, Plasma or Blood",ug/mL,1.0,false,"Ethylene glycol:MCnc:Pt:Ser/Plas/Bld:Qn:"
+73828-6,Flunitrazepam,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Flunitrazepam [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.44,false,Flunitrazepam:MCnc:Pt:Ser/Plas/Bld:Qn:
+50966-1,Flunitrazepam,PrThr,Pt,Ser/Plas/Bld,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Flunitrazepam [Presence] in Serum, Plasma or Blood",,2.22,false,Flunitrazepam:PrThr:Pt:Ser/Plas/Bld:Ord:
+75347-5,Tapentadol,MCnc,Pt,Ser/Plas/Bld,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Tapentadol [Mass/volume] in Serum, Plasma or Blood",ng/mL,2.50,false,Tapentadol:MCnc:Pt:Ser/Plas/Bld:Qn:
+40811-2,11-Deoxycorticosterone,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"11-Deoxycorticosterone [Presence] in Serum or Plasma",,2.15,false,11-Deoxycorticosterone:PrThr:Pt:Ser/Plas:Ord:
+93243-4,11-Hydroxytestosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,ng/dL,"11-Hydroxytestosterone [Mass/volume] in Serum or Plasma",ng/dL,2.67,false,11-Hydroxytestosterone:MCnc:Pt:Ser/Plas:Qn:
+93242-6,11-Ketotestosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,ng/dL,"11-Ketotestosterone [Mass/volume] in Serum or Plasma",ng/dL,2.67,false,11-Ketotestosterone:MCnc:Pt:Ser/Plas:Qn:
+1674-1,18-Hydroxycorticosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/dL,"18-Hydroxycorticosterone [Mass/volume] in Serum or Plasma",ng/dL,1.0,false,18-Hydroxycorticosterone:MCnc:Pt:Ser/Plas:Qn:
+50082-7,18-Hydroxycorticosterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,nmol/L,"18-Hydroxycorticosterone [Moles/volume] in Serum or Plasma",nmol/L,2.22,false,18-Hydroxycorticosterone:SCnc:Pt:Ser/Plas:Qn:
+55810-6,18-Hydroxycortisol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,pmol/L,"18-Hydroxycortisol [Moles/volume] in Serum or Plasma",pmol/L,2.29,false,18-Hydroxycortisol:SCnc:Pt:Ser/Plas:Qn:
+27399-5,1-Methylhistidine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"1-Methylhistidine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,1-Methylhistidine:ACnc:Pt:Ser/Plas:Qn:
+1651-9,1-Methylhistidine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"1-Methylhistidine [Presence] in Serum or Plasma",,1.0,false,1-Methylhistidine:PrThr:Pt:Ser/Plas:Ord:
+69799-5,21-Deoxycorticosterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,pmol/L,"21-Deoxycorticosterone [Moles/volume] in Serum or Plasma",pmol/L,2.40,false,21-Deoxycorticosterone:SCnc:Pt:Ser/Plas:Qn:
+74872-3,21-Deoxycortisol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/dL,"21-Deoxycortisol [Mass/volume] in Serum or Plasma",ng/dL,2.48,false,21-Deoxycortisol:MCnc:Pt:Ser/Plas:Qn:
+50250-0,21-Deoxycortisol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,pmol/L,"21-Deoxycortisol [Moles/volume] in Serum or Plasma",pmol/L,2.22,false,21-Deoxycortisol:SCnc:Pt:Ser/Plas:Qn:
+69785-4,2-Hydroxysebacate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"2-Hydroxysebacate [Moles/volume] in Serum or Plasma",umol/L,2.40,false,2-Hydroxysebacate:SCnc:Pt:Ser/Plas:Qn:
+69787-0,2-Methylacetoacetate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"2-Methylacetoacetate [Moles/volume] in Serum or Plasma",umol/L,2.40,false,2-Methylacetoacetate:SCnc:Pt:Ser/Plas:Qn:
+79488-3,"3,4-Dihydroxybutyrate",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"3,4-Dihydroxybutyrate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,"3,4-Dihydroxybutyrate:SCnc:Pt:Ser/Plas:Qn:"
+74430-0,3-Hydroxykynurenin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"3-Hydroxykynurenin [Moles/volume] in Serum or Plasma",umol/L,2.46,false,3-Hydroxykynurenin:SCnc:Pt:Ser/Plas:Qn:
+75088-5,3-Indolelactate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,umol/L,"3-Indolelactate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,3-Indolelactate:SCnc:Pt:Ser/Plas:Qn:
+72443-5,3-Methyladipate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,nmol/L,"3-Methyladipate [Moles/volume] in Serum or Plasma",nmol/L,2.42,false,3-Methyladipate:SCnc:Pt:Ser/Plas:Qn:
+79502-1,4-Hydroxyvalerate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"4-Hydroxyvalerate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,4-Hydroxyvalerate:SCnc:Pt:Ser/Plas:Qn:
+79688-8,5-hydroxymethyluracil,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"5-Hydroxymethyluracil [Moles/volume] in Serum or Plasma",umol/L,2.54,false,5-hydroxymethyluracil:SCnc:Pt:Ser/Plas:Qn:
+50153-6,5-Methyltetrahydrofolate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"5-Methyltetrahydrofolate [Moles/volume] in Serum or Plasma",umol/L,2.22,false,5-Methyltetrahydrofolate:SCnc:Pt:Ser/Plas:Qn:
+33275-9,7-Dehydrocholesterol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/mL,"7-Dehydrocholesterol [Mass/volume] in Serum or Plasma",ng/mL,2.09,false,7-Dehydrocholesterol:MCnc:Pt:Ser/Plas:Qn:
+32289-1,7-Dehydrocholesterol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"7-Dehydrocholesterol [Moles/volume] in Serum or Plasma",umol/L,2.07,false,7-Dehydrocholesterol:SCnc:Pt:Ser/Plas:Qn:
+72425-2,7-Hydroxyoctanoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,umol/L,"7-Hydroxyoctanoate [Moles/volume] in Serum or Plasma",umol/L,2.42,false,7-Hydroxyoctanoate:SCnc:Pt:Ser/Plas:Qn:
+34671-8,8-Dehydrocholesterol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.44,ACTIVE,1,Both,,ng/mL,"8-Dehydrocholesterol [Mass/volume] in Serum or Plasma",ng/mL,2.11,false,8-Dehydrocholesterol:MCnc:Pt:Ser/Plas:Qn:
+56535-8,8-Dehydrocholesterol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"8-Dehydrocholesterol [Moles/volume] in Serum or Plasma",umol/L,2.29,false,8-Dehydrocholesterol:SCnc:Pt:Ser/Plas:Qn:
+104310-8,Abemaciclib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Abemaciclib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Abemaciclib:MCnc:Pt:Ser/Plas:Qn:
+100372-2,Abiraterone,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Abiraterone [Mass/volume] in Serum or Plasma",ng/mL,2.73,false,Abiraterone:MCnc:Pt:Ser/Plas:Qn:
+43626-1,acetoHEXAMIDE,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Acetohexamide [Presence] in Serum or Plasma",,2.17,false,acetoHEXAMIDE:PrThr:Pt:Ser/Plas:Ord:
+26925-8,Acetophenazine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Acetophenazine [Presence] in Serum or Plasma",,2.00,false,Acetophenazine:PrThr:Pt:Ser/Plas:Ord:
+18436-6,"Acetylcarnitine (C2)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Acetylcarnitine (C2) [Mass/volume] in Serum or Plasma",,1.0l,false,"Acetylcarnitine (C2):MCnc:Pt:Ser/Plas:Qn:"
+30191-1,"Acetylcarnitine (C2)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Acetylcarnitine (C2) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Acetylcarnitine (C2):SCnc:Pt:Ser/Plas:Qn:"
+1717-8,Acylcarnitine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Acylcarnitine [Mass/volume] in Serum or Plasma",,1.0,false,Acylcarnitine:MCnc:Pt:Ser/Plas:Qn:
+14282-8,Acylcarnitine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Acylcarnitine [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Acylcarnitine:SCnc:Pt:Ser/Plas:Qn:
+75142-0,Adenosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,umol/L,"Adenosine [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Adenosine:SCnc:Pt:Ser/Plas:Qn:
+75087-7,Adipate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,umol/L,"Adipate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Adipate:SCnc:Pt:Ser/Plas:Qn:
+1737-6,Alanine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Alanine [Mass/volume] in Serum or Plasma",,1.0,false,Alanine:MCnc:Pt:Ser/Plas:Qn:
+1736-8,Alanine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Alanine [Presence] in Serum or Plasma",,1.0,false,Alanine:PrThr:Pt:Ser/Plas:Ord:
+20636-7,Alanine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Alanine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Alanine:SCnc:Pt:Ser/Plas:Qn:
+43712-9,Albumin,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,DISCOURAGED,1,Both,,,"Albumin [Presence] in Serum or Plasma",,2.17,false,Albumin:PrThr:Pt:Ser/Plas:Ord:
+86921-4,"Albumin goal",MCnc,Pt,Ser/Plas,Qn,,CLIN,2.63,ACTIVE,2,Both,,g/dL,"Albumin goal [Mass/volume] Serum or Plasma",g/dL,2.63,false,"Albumin goal:MCnc:Pt:Ser/Plas:Qn:"
+1763-2,Aldosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/dL,"Aldosterone [Mass/volume] in Serum or Plasma",ng/dL,1.0,false,Aldosterone:MCnc:Pt:Ser/Plas:Qn:
+35185-8,Aldosterone,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Aldosterone [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Aldosterone:MSCnc:Pt:Ser/Plas:Qn:
+14586-2,Aldosterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pmol/L,"Aldosterone [Moles/volume] in Serum or Plasma",pmol/L,1.0k,false,Aldosterone:SCnc:Pt:Ser/Plas:Qn:
+103560-9,Aldosterone/Renin,Ratio,Pt,Ser/Plas,Qn,,CHEM,2.77,ACTIVE,1,Both,,{ratio},"Aldosterone/Renin [Ratio] in Serum or Plasma",{ratio},2.77,false,Aldosterone/Renin:Ratio:Pt:Ser/Plas:Qn:
+16571-2,Cephadrine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ug/mL,"Cephadrine [Mass/volume] in Serum or Plasma",ug/mL,1.0l,false,Cephadrine:MCnc:Pt:Ser/Plas:Qn:
+47600-2,Ceruloplasmin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Ceruloplasmin [Moles/volume] in Serum or Plasma",umol/L,2.21,false,Ceruloplasmin:SCnc:Pt:Ser/Plas:Qn:
+30519-3,Chenodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,umol/L,"Chenodeoxycholate [Moles/volume] in Serum or Plasma",umol/L,2.04,false,Chenodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+61128-5,Cotinine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Cotinine [Presence] in Serum or Plasma",,2.34,false,Cotinine:PrThr:Pt:Ser/Plas:Ord:
+2148-5,Creatine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Creatine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Creatine:MCnc:Pt:Ser/Plas:Qn:
+15045-8,Creatine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L,"Creatine [Moles/volume] in Serum or Plasma",mmol/L,1.0k,false,Creatine:SCnc:Pt:Ser/Plas:Qn:
+2168-3,Cryoglobulin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Cryoglobulin [Mass/volume] in Serum or Plasma",,1.0,false,Cryoglobulin:MCnc:Pt:Ser/Plas:Qn:
+13554-1,Cyclobenzaprine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Cyclobenzaprine [Presence] in Serum or Plasma",,1.0k,false,Cyclobenzaprine:PrThr:Pt:Ser/Plas:Ord:
+53448-7,Cycloguanil,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,mg/L,"Cycloguanil [Mass/volume] in Serum or Plasma",mg/L,2.26,false,Cycloguanil:MCnc:Pt:Ser/Plas:Qn:
+2173-3,Cystathionine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Cystathionine [Mass/volume] in Serum or Plasma",,1.0,false,Cystathionine:MCnc:Pt:Ser/Plas:Qn:
+26607-2,Cystathionine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/dL; mcmol/L","Cystathionine [Moles/volume] in Serum or Plasma",umol/L,2.00,false,Cystathionine:SCnc:Pt:Ser/Plas:Qn:
+33863-2,"Cystatin C",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Cystatin C [Mass/volume] in Serum or Plasma",mg/L,2.09,false,"Cystatin C:MCnc:Pt:Ser/Plas:Qn:"
+79606-0,Cysteate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Cysteate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Cysteate:SCnc:Pt:Ser/Plas:Qn:
+2177-4,Cystine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Cystine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Cystine:MCnc:Pt:Ser/Plas:Qn:
+22672-0,Cystine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Cystine [Moles/volume] in Serum or Plasma",umol/L,1.0n,false,Cystine:SCnc:Pt:Ser/Plas:Qn:
+55153-1,"Biotinidase panel",-,Pt,Ser/Plas,Qn,,PANEL.CHEM,2.42,ACTIVE,1,Order,,,"Biotinidase panel - Serum or Plasma",,2.27,true,"Biotinidase panel:-:Pt:Ser/Plas:Qn:"
+43894-5,Bismuth,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Bismuth [Presence] in Serum or Plasma",,2.17,false,Bismuth:PrThr:Pt:Ser/Plas:Ord:
+1983-6,Bradykinin,MCnc,Pt,Ser/Plas,Qn,,COAG,2.42,ACTIVE,1,Both,,ng/mL,"Bradykinin [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Bradykinin:MCnc:Pt:Ser/Plas:Qn:
+77371-3,Brassicasterol,SCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.52,ACTIVE,1,Both,,pmol/L,"Brassicasterol [Moles/volume] in Serum or Plasma",pmol/L,2.52,false,Brassicasterol:SCnc:Pt:Ser/Plas:Qn:
+10531-2,Bretylium,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Bretylium [Mass/volume] in Serum or Plasma",ng/mL,1.0i,false,Bretylium:MCnc:Pt:Ser/Plas:Qn:
+79698-7,Docosadienoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Both,,umol/L,"Docosadienoate (C22:2w6) [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Docosadienoate:SCnc:Pt:Ser/Plas:Qn:
+81764-3,Docosatrienoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Both,,umol/L,"Docosatrienoate (C22:3w9) [Moles/volume] in Serum or Plasma",umol/L,2.56,false,Docosatrienoate:SCnc:Pt:Ser/Plas:Qn:
+18455-6,"Dodecanoylcarnitine (C12)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Dodecanoylcarnitine (C12) [Mass/volume] in Serum or Plasma",,1.0l,false,"Dodecanoylcarnitine (C12):MCnc:Pt:Ser/Plas:Qn:"
+30331-3,"Dodecanoylcarnitine (C12)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Dodecanoylcarnitine (C12) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Dodecanoylcarnitine (C12):SCnc:Pt:Ser/Plas:Qn:"
+53546-8,"Dodeicosanoylcarnitine (C22)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Dodeicosanoylcarnitine (C22) [Moles/volume] in Serum or Plasma",umol/L,2.26,false,"Dodeicosanoylcarnitine (C22):SCnc:Pt:Ser/Plas:Qn:"
+3585-7,Doxylamine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Doxylamine [Presence] in Serum or Plasma",,1.0,false,Doxylamine:PrThr:Pt:Ser/Plas:Ord:
+16144-8,Droperidol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Droperidol [Presence] in Serum or Plasma",,1.0l,false,Droperidol:PrThr:Pt:Ser/Plas:Ord:
+29117-9,Efavirenz,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Efavirenz [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Efavirenz:ACnc:Pt:Ser/Plas:Qn:
+79694-6,Eicosadienoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Both,,umol/L,"Eicosadienoate (C20:2w6) [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Eicosadienoate:SCnc:Pt:Ser/Plas:Qn:
+53473-5,"Eicosanoylcarnitine (C20)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Eicosanoylcarnitine (C20) [Moles/volume] in Serum or Plasma",umol/L,2.26,false,"Eicosanoylcarnitine (C20):SCnc:Pt:Ser/Plas:Qn:"
+81766-8,Eicosatrienoate,EntSub,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Both,,"pmol/10*6 RBC","Eicosatrienoate (C20:3w3) [Entitic substance] in Serum or Plasma",pmol/10*6{RBC},2.56,false,Eicosatrienoate:EntSub:Pt:Ser/Plas:Qn:
+81767-6,Eicosatrienoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Both,,umol/L,"Eicosatrienoate (C20:3w3) [Moles/volume] in Serum or Plasma",umol/L,2.56,false,Eicosatrienoate:SCnc:Pt:Ser/Plas:Qn:
+16813-8,Emetine,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Emetine [Units/volume] in Serum or Plasma",[arb'U]/mL,1.0l,false,Emetine:ACnc:Pt:Ser/Plas:Qn:
+16812-0,Emetine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Emetine [Presence] in Serum or Plasma",,1.0l,false,Emetine:PrThr:Pt:Ser/Plas:Ord:
+17861-6,Calcium,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Calcium [Mass/volume] in Serum or Plasma",mg/dL,1.0l,false,Calcium:MCnc:Pt:Ser/Plas:Qn:
+35246-8,Calcium,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Calcium [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Calcium:MSCnc:Pt:Ser/Plas:Qn:
+2000-8,Calcium,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L;mEq/L,"Calcium [Moles/volume] in Serum or Plasma",mmol/L,1.0,false,Calcium:SCnc:Pt:Ser/Plas:Qn:
+86915-6,"Calcium goal",MCnc,Pt,Ser/Plas,Qn,,CLIN,2.63,ACTIVE,2,Both,,mg/dl,"Calcium goal [Mass/volume] Serum or Plasma",mg/dL,2.63,false,"Calcium goal:MCnc:Pt:Ser/Plas:Qn:"
+9328-6,Carbidopa,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Carbidopa [Mass/volume] in Serum or Plasma",ug/mL,1.0i,false,Carbidopa:MCnc:Pt:Ser/Plas:Qn:
+60523-8,Carbromal,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ug/mL,"Carbromal [Mass/volume] in Serum or Plasma",ug/mL,2.34,false,Carbromal:MCnc:Pt:Ser/Plas:Qn:
+101642-7,"Cardiovascular risk panel",-,Pt,Ser/Plas,-,,PANEL.MOLPATH,2.75,ACTIVE,1,Order,,,"Cardiovascular risk panel - Serum or Plasma",,2.75,true,"Cardiovascular risk panel:-:Pt:Ser/Plas:-:"
+16428-5,Bacitracin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ug/mL,"Bacitracin [Mass/volume] in Serum or Plasma",ug/mL,1.0l,false,Bacitracin:MCnc:Pt:Ser/Plas:Qn:
+5588-9,Barium,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Barium [Presence] in Serum or Plasma",,1.0,false,Barium:PrThr:Pt:Ser/Plas:Ord:
+48498-0,"Amyloid A",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,mg/L,"Amyloid A [Mass/volume] in Serum or Plasma",mg/L,2.21,false,"Amyloid A:MCnc:Pt:Ser/Plas:Qn:"
+1848-1,Androstanolone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"ng/dL; pg/mL","Androstanolone [Mass/volume] in Serum or Plasma",pg/mL,1.0,false,Androstanolone:MCnc:Pt:Ser/Plas:Qn:
+35189-0,Androstanolone,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Androstanolone [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Androstanolone:MSCnc:Pt:Ser/Plas:Qn:
+15057-3,Androstanolone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pmol/L,"Androstanolone [Moles/volume] in Serum or Plasma",pmol/L,1.0k,false,Androstanolone:SCnc:Pt:Ser/Plas:Qn:
+55851-0,Androstenediol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,nmol/L,"Androstenediol [Moles/volume] in Serum or Plasma",nmol/L,2.29,false,Androstenediol:SCnc:Pt:Ser/Plas:Qn:
+1854-9,Androstenedione,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"ng/dL; ng/mL","Androstenedione [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Androstenedione:MCnc:Pt:Ser/Plas:Qn:
+35190-8,Androstenedione,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Androstenedione [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Androstenedione:MSCnc:Pt:Ser/Plas:Qn:
+14603-5,Androstenedione,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Androstenedione [Moles/volume] in Serum or Plasma",nmol/L,1.0k,false,Androstenedione:SCnc:Pt:Ser/Plas:Qn:
+1866-3,Anserine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Anserine [Mass/volume] in Serum or Plasma",,1.0,false,Anserine:MCnc:Pt:Ser/Plas:Qn:
+26599-1,Anserine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/dL; mcmol/L","Anserine [Moles/volume] in Serum or Plasma",umol/L,2.00,false,Anserine:SCnc:Pt:Ser/Plas:Qn:
+19060-3,"Antibodies identified",Prid,Pt,Ser/Plas,Nom,,BLDBK,2.36,DEPRECATED,1,,,,"Deprecated Blood group antibodies identified in Serum or Plasma",,1.0l,false,"Antibodies identified:Prid:Pt:Ser/Plas:Nom:"
+32665-2,Anticonvulsants,Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.15,ACTIVE,1,Both,,,"Anticonvulsants [Identifier] in Serum or Plasma",,2.09,false,Anticonvulsants:Prid:Pt:Ser/Plas:Nom:
+12702-7,Antimony,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Antimony [Presence] in Serum or Plasma",,1.0j-a,false,Antimony:PrThr:Pt:Ser/Plas:Ord:
+43907-5,Argininosuccinate,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Argininosuccinate [Presence] in Serum or Plasma",,2.17,false,Argininosuccinate:PrThr:Pt:Ser/Plas:Ord:
+40700-7,"Aromatic solvents",Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.15,ACTIVE,1,Both,,,"Aromatic solvents [Identifier] in Serum or Plasma",,2.15,false,"Aromatic solvents:Prid:Pt:Ser/Plas:Nom:"
+16403-8,Arsenic,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Arsenic [Presence] in Serum or Plasma",,1.0l,false,Arsenic:PrThr:Pt:Ser/Plas:Ord:
+1901-8,Arylsulfatase,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.68,ACTIVE,1,Both,,"arb U/L","Arylsulfatase [Enzymatic activity/volume] in Serum or Plasma",U/L,1.0,false,Arylsulfatase:CCnc:Pt:Ser/Plas:Qn:
+51195-6,Desbutylbupivacaine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,mg/L,"Desbutylbupivacaine [Mass/volume] in Serum or Plasma",mg/L,2.22,false,Desbutylbupivacaine:MCnc:Pt:Ser/Plas:Qn:
+74528-1,"Dicarboxyeicosanoylcarnitine (C20-DC)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,umol/L,"Dicarboxyeicosanoylcarnitine (C20-DC) [Moles/volume] in Serum or Plasma",umol/L,2.48,false,"Dicarboxyeicosanoylcarnitine (C20-DC):SCnc:Pt:Ser/Plas:Qn:"
+26953-0,Dichlorodiphenyltrichloroethane,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.68,ACTIVE,1,Both,,,"Dichlorodiphenyltrichloroethane [Presence] in Serum or Plasma",,2.00,false,Dichlorodiphenyltrichloroethane:PrThr:Pt:Ser/Plas:Ord:
+29116-1,Didanosine,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Didanosine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Didanosine:ACnc:Pt:Ser/Plas:Qn:
+48370-1,Dihomogammalinolenate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,umol/L,"Dihomogammalinolenate (C20:3n-6) [Moles/volume] in Serum or Plasma",umol/L,2.21,false,Dihomogammalinolenate:SCnc:Pt:Ser/Plas:Qn:
+12337-2,Dimethylsulfoxide,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Dimethylsulfoxide [Presence] in Serum or Plasma",,1.0j-a,false,Dimethylsulfoxide:PrThr:Pt:Ser/Plas:Ord:
+16778-3,Dinitrophenol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Dinitrophenol [Presence] in Serum or Plasma",,1.0l,false,Dinitrophenol:PrThr:Pt:Ser/Plas:Ord:
+12728-2,"Alpha subunit",ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,IU/L,"Alpha subunit [Units/volume] in Serum or Plasma",[IU]/L,1.0j-a,false,"Alpha subunit:ACnc:Pt:Ser/Plas:Qn:"
+13545-9,ALPRAZolam,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"ALPRAZolam [Presence] in Serum or Plasma",,1.0k,false,ALPRAZolam:PrThr:Pt:Ser/Plas:Ord:
+12468-5,"Amino acids",Prid,Pt,Ser/Plas,Nom,,CHEM,2.73,ACTIVE,1,Both,,,"Amino acids [Identifier] in Serum or Plasma",,1.0j-a,false,"Amino acids:Prid:Pt:Ser/Plas:Nom:"
+9408-6,Aminobenzoate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,ug/mL,"Aminobenzoate [Mass/volume] in Serum or Plasma",ug/mL,1.0i,false,Aminobenzoate:MCnc:Pt:Ser/Plas:Qn:
+2229-3,Epiandrosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,mg/L,"Epiandrosterone [Mass/volume] in Serum or Plasma",mg/L,1.0,false,Epiandrosterone:MCnc:Pt:Ser/Plas:Qn:
+50046-2,Hemicystine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/l,"Hemicystine [Moles/volume] in Serum or Plasma",umol/L,2.22,false,Hemicystine:SCnc:Pt:Ser/Plas:Qn:
+18229-5,"Heparan sulfate",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Heparan sulfate [Presence] in Serum or Plasma",,1.0l,false,"Heparan sulfate:PrThr:Pt:Ser/Plas:Ord:"
+18452-3,"Decanoylcarnitine (C10)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Decanoylcarnitine (C10) [Mass/volume] in Serum or Plasma",,1.0l,false,"Decanoylcarnitine (C10):MCnc:Pt:Ser/Plas:Qn:"
+30327-1,"Decanoylcarnitine (C10)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Decanoylcarnitine (C10) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Decanoylcarnitine (C10):SCnc:Pt:Ser/Plas:Qn:"
+16151-3,Dechlorane,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Dechlorane [Presence] in Serum or Plasma",,1.0l,false,Dechlorane:PrThr:Pt:Ser/Plas:Ord:
+15054-0,Dehydroepiandrosterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Dehydroepiandrosterone (DHEA) [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Dehydroepiandrosterone:SCnc:Pt:Ser/Plas:Qn:
+29115-3,Delavirdine,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Delavirdine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Delavirdine:ACnc:Pt:Ser/Plas:Qn:
+13556-6,Demoxepam,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Demoxepam [Presence] in Serum or Plasma",,1.0k,false,Demoxepam:PrThr:Pt:Ser/Plas:Ord:
+79609-4,Glutathione.oxidized,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Glutathione.oxidized [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Glutathione.oxidized:SCnc:Pt:Ser/Plas:Qn:
+79600-3,Glutathione.reduced,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Glutathione.reduced [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Glutathione.reduced:SCnc:Pt:Ser/Plas:Qn:
+75063-8,Glycerate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Glycerate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Glycerate:SCnc:Pt:Ser/Plas:Qn:
+2395-2,Glycolate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.44,DISCOURAGED,1,Both,,,"Glycolate [Mass/volume] in Serum or Plasma",,1.0,false,Glycolate:MCnc:Pt:Ser/Plas:Qn:
+42502-5,Glycolate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,mmol/L,"Glycolate [Moles/volume] in Serum or Plasma",mmol/L,2.16,false,Glycolate:SCnc:Pt:Ser/Plas:Qn:
+12402-4,Griseofulvin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Griseofulvin [Mass/volume] in Serum or Plasma",ug/mL,1.0j-a,false,Griseofulvin:MCnc:Pt:Ser/Plas:Qn:
+2276-4,Ferritin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/L;ng/mL,"Ferritin [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Ferritin:MCnc:Pt:Ser/Plas:Qn:
+35209-6,Ferritin,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Ferritin [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Ferritin:MSCnc:Pt:Ser/Plas:Qn:
+86914-9,"Ferritin goal",MCnc,Pt,Ser/Plas,Qn,,CLIN,2.63,ACTIVE,2,Both,,ng/mL,"Ferritin goal [Mass/volume] Serum or Plasma",ng/mL,2.63,false,"Ferritin goal:MCnc:Pt:Ser/Plas:Qn:"
+79492-5,Furoylglycine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Furoylglycine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Furoylglycine:SCnc:Pt:Ser/Plas:Qn:
+20826-4,Gallotannin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.34,ACTIVE,1,Both,,,"Gallotannin [Mass/volume] in Serum or Plasma",,1.0m,false,Gallotannin:MCnc:Pt:Ser/Plas:Qn:
+15072-2,Gastrin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pmol/L,"Gastrin [Moles/volume] in Serum or Plasma",pmol/L,1.0k,false,Gastrin:SCnc:Pt:Ser/Plas:Qn:
+105459-2,"Copper panel",-,Pt,Ser/Plas,-,,PANEL.DRUG/TOX,2.78,ACTIVE,1,Order,,,"Copper panel - Serum or Plasma",,2.78,true,"Copper panel:-:Pt:Ser/Plas:-:"
+2139-4,Corticosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/dL,"Corticosterone [Mass/volume] in Serum or Plasma",ug/dL,1.0,false,Corticosterone:MCnc:Pt:Ser/Plas:Qn:
+25381-5,Corticosterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,nmol/L,"Corticosterone [Moles/volume] in Serum or Plasma",nmol/L,2.00,false,Corticosterone:SCnc:Pt:Ser/Plas:Qn:
+18439-0,"Butyrylcarnitine (C4)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Butyrylcarnitine (C4) [Mass/volume] in Serum or Plasma",,1.0l,false,"Butyrylcarnitine (C4):MCnc:Pt:Ser/Plas:Qn:"
+35655-0,"Butyrylcarnitine (C4)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,umol/L,"Butyrylcarnitine (C4) [Moles/volume] in Serum or Plasma",umol/L,2.13,false,"Butyrylcarnitine (C4):SCnc:Pt:Ser/Plas:Qn:"
+14642-3,Carotene,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Carotene [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Carotene:SCnc:Pt:Ser/Plas:Qn:
+58419-3,Caspofungin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ug/mL,"Caspofungin [Mass/volume] in Serum or Plasma",ug/mL,2.30,false,Caspofungin:MCnc:Pt:Ser/Plas:Qn:
+79499-0,"Catecholamine metabolites panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.58,ACTIVE,1,Order,,,"Catecholamine metabolites panel - Serum or Plasma",,2.54,true,"Catecholamine metabolites panel:-:Pt:Ser/Plas:-:"
+16563-9,"Cathepsin D",SFr,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Observation,,%,"Cathepsin D in Serum or Plasma",%,1.0l,false,"Cathepsin D:SFr:Pt:Ser/Plas:Qn:"
+55832-0,"Cathepsin K",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,pmol/L,"Cathepsin K [Moles/volume] in Serum or Plasma",pmol/L,2.29,false,"Cathepsin K:SCnc:Pt:Ser/Plas:Qn:"
+1913-3,Aspartate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Aspartate [Mass/volume] in Serum or Plasma",,1.0,false,Aspartate:MCnc:Pt:Ser/Plas:Qn:
+20639-1,Aspartate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Aspartate [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Aspartate:SCnc:Pt:Ser/Plas:Qn:
+22677-9,Aspartate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,DEPRECATED,1,,,umol/L,"Deprecated Aspartate [Molecules/volume] in Serum or Plasma",umol/L,1.0n,false,Aspartate:SCnc:Pt:Ser/Plas:Qn:
+79589-8,Aspartylglycosamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Aspartylglycosamine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Aspartylglycosamine:SCnc:Pt:Ser/Plas:Qn:
+27012-4,Benzaldehyde,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Benzaldehyde [Presence] in Serum or Plasma",,2.00,false,Benzaldehyde:PrThr:Pt:Ser/Plas:Ord:
+5591-3,Benzene,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Benzene [Presence] in Serum or Plasma",,1.0,false,Benzene:PrThr:Pt:Ser/Plas:Ord:
+75065-3,Benzoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Benzoate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Benzoate:SCnc:Pt:Ser/Plas:Qn:
+18445-7,"Benzoylcarnitine (BzCn)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Benzoylcarnitine (BzCn) [Mass/volume] in Serum or Plasma",,1.0l,false,"Benzoylcarnitine (BzCn):MCnc:Pt:Ser/Plas:Qn:"
+39615-0,"Benzoylcarnitine (BzCn)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,umol/L;nmol/mL,"Benzoylcarnitine (BzCn) [Moles/volume] in Serum or Plasma",umol/L,2.15,false,"Benzoylcarnitine (BzCn):SCnc:Pt:Ser/Plas:Qn:"
+43857-2,Benztropine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Benztropine [Presence] in Serum or Plasma",,2.17,false,Benztropine:PrThr:Pt:Ser/Plas:Ord:
+5593-9,Beryllium,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Beryllium [Presence] in Serum or Plasma",,1.0,false,Beryllium:PrThr:Pt:Ser/Plas:Ord:
+43922-4,"Beta endorphin",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Beta endorphin [Presence] in Serum or Plasma",,2.17,false,"Beta endorphin:PrThr:Pt:Ser/Plas:Ord:"
+43899-4,"Beta lipotropin",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Beta lipotropin [Presence] in Serum or Plasma",,2.17,false,"Beta lipotropin:PrThr:Pt:Ser/Plas:Ord:"
+99099-4,Procalcitonin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.72,ACTIVE,1,Both,,nmol/L,"Procalcitonin [Moles/volume] in Serum or Plasma",nmol/L,2.72,false,Procalcitonin:SCnc:Pt:Ser/Plas:Qn:
+27258-3,Protein,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,DEPRECATED,1,Both,,mmol/L,"Deprecated Protein [Mass/volume] in Serum or Plasma",mmol/L,2.00,false,Protein:SCnc:Pt:Ser/Plas:Qn:
+12412-3,Pyridine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Pyridine [Mass/volume] in Serum or Plasma",,1.0j-a,false,Pyridine:MCnc:Pt:Ser/Plas:Qn:
+4007-1,Pyrilamine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Pyrilamine [Presence] in Serum or Plasma",,1.0,false,Pyrilamine:PrThr:Pt:Ser/Plas:Ord:
+12247-3,Pyruvate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Pyruvate [Mass/volume] in Serum or Plasma",mg/dL,1.0j-a,false,Pyruvate:MCnc:Pt:Ser/Plas:Qn:
+32338-6,Pyruvate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L,"Pyruvate [Moles/volume] in Serum or Plasma",mmol/L,2.07,false,Pyruvate:SCnc:Pt:Ser/Plas:Qn:
+17506-7,Quinacrine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ng/mL,"Quinacrine [Mass/volume] in Serum or Plasma",ng/mL,1.0l,false,Quinacrine:MCnc:Pt:Ser/Plas:Qn:
+12546-8,Quinethazone,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Quinethazone [Presence] in Serum or Plasma",,1.0j-a,false,Quinethazone:PrThr:Pt:Ser/Plas:Ord:
+4019-6,quiNINE,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"quiNINE [Mass/volume] in Serum or Plasma",ug/mL,1.0,false,quiNINE:MCnc:Pt:Ser/Plas:Qn:
+59965-4,quiNINE,SCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,nmol/L,"quiNINE [Moles/volume] in Serum or Plasma",nmol/L,2.34,false,quiNINE:SCnc:Pt:Ser/Plas:Qn:
+75077-8,Quinolinate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,umol/L,"Quinolinate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Quinolinate:SCnc:Pt:Ser/Plas:Qn:
+14901-3,raNITIdine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"raNITIdine [Presence] in Serum or Plasma",,1.0k,false,raNITIdine:PrThr:Pt:Ser/Plas:Ord:
+14883-3,Porphyrins,Imp,Pt,Ser/Plas,Nom,,CHEM,2.73,ACTIVE,1,Observation,,,"Porphyrins [Interpretation] in Serum or Plasma",,1.0k,false,Porphyrins:Imp:Pt:Ser/Plas:Nom:
+22760-3,Potassium,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Potassium [Mass/volume] in Serum or Plasma",,1.0n,false,Potassium:MCnc:Pt:Ser/Plas:Qn:
+42569-4,Potassium,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Potassium [Mass or Moles/volume] in Serum or Plasma",,2.16,false,Potassium:MSCnc:Pt:Ser/Plas:Qn:
+2823-3,Potassium,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L,"Potassium [Moles/volume] in Serum or Plasma",mmol/L,1.0,false,Potassium:SCnc:Pt:Ser/Plas:Qn:
+48497-2,Pro-hepcidin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,ug/L,"Pro-hepcidin [Mass/volume] in Serum or Plasma",ug/L,2.21,false,Pro-hepcidin:MCnc:Pt:Ser/Plas:Qn:
+2840-7,Proinsulin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/dL,"Proinsulin [Mass/volume] in Serum or Plasma",ug/dL,1.0,false,Proinsulin:MCnc:Pt:Ser/Plas:Qn:
+14338-8,Prealbumin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,g/L;mg/dL,"Prealbumin [Mass/volume] in Serum or Plasma",mg/dL;g/dL,1.0k,false,Prealbumin:MCnc:Pt:Ser/Plas:Qn:
+13578-0,Promazine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Promazine [Presence] in Serum or Plasma",,1.0k,false,Promazine:PrThr:Pt:Ser/Plas:Ord:
+41615-6,Xanthurenate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,ng/mL,"Xanthurenate [Mass/volume] in Serum or Plasma",ng/mL,2.16,false,Xanthurenate:MCnc:Pt:Ser/Plas:Qn:
+104108-6,Xylazine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.77,ACTIVE,1,Observation,,pos/neg,"Xylazine [Presence] in Serum or Plasma",,2.77,false,Xylazine:PrThr:Pt:Ser/Plas:Ord:
+29999-0,Xylose,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.34,ACTIVE,1,Both,,mg/dL,"Xylose [Mass/volume] in Serum or Plasma",mg/dL,2.04,false,Xylose:MCnc:Pt:Ser/Plas:Qn:
+32347-7,Xylose,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,mmol/L,"Xylose [Moles/volume] in Serum or Plasma",mmol/L,2.07,false,Xylose:SCnc:Pt:Ser/Plas:Qn:
+4063-4,traZODone,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"traZODone [Presence] in Serum or Plasma",,1.0,false,traZODone:PrThr:Pt:Ser/Plas:Ord:
+12418-0,Terfenadine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.40,ACTIVE,1,Both,,ng/mL,"Terfenadine [Mass/volume] in Serum or Plasma",ng/mL,1.0j-a,false,Terfenadine:MCnc:Pt:Ser/Plas:Qn:
+2986-8,Testosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"ng/dL; ng/mL","Testosterone [Mass/volume] in Serum or Plasma",ng/dL,1.0,false,Testosterone:MCnc:Pt:Ser/Plas:Qn:
+35224-5,Testosterone,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Testosterone [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Testosterone:MSCnc:Pt:Ser/Plas:Qn:
+14913-8,Testosterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Testosterone [Moles/volume] in Serum or Plasma",nmol/L,1.0k,false,Testosterone:SCnc:Pt:Ser/Plas:Qn:
+30565-6,"Tetradecanoylcarnitine (C14)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Tetradecanoylcarnitine (C14) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Tetradecanoylcarnitine (C14):SCnc:Pt:Ser/Plas:Qn:"
+17699-0,Thebaine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.34,ACTIVE,1,Both,,,"Thebaine [Mass/volume] in Serum or Plasma",,1.0l,false,Thebaine:MCnc:Pt:Ser/Plas:Qn:
+31169-6,Theobromine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Theobromine [Mass/volume] in Serum or Plasma",ug/mL,2.07,false,Theobromine:MCnc:Pt:Ser/Plas:Qn:
+12302-6,Theobromine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Theobromine [Presence] in Serum or Plasma",,1.0j-a,false,Theobromine:PrThr:Pt:Ser/Plas:Ord:
+5738-0,Strychnine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Strychnine [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Strychnine:MCnc:Pt:Ser/Plas:Qn:
+5737-2,Strychnine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Strychnine [Presence] in Serum or Plasma",,1.0,false,Strychnine:PrThr:Pt:Ser/Plas:Ord:
+59968-8,Strychnine,SCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,umol/L,"Strychnine [Moles/volume] in Serum or Plasma",umol/L,2.34,false,Strychnine:SCnc:Pt:Ser/Plas:Qn:
+59340-0,Stiripentol,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ug/mL,"Stiripentol [Mass/volume] in Serum or Plasma",ug/mL,2.32,false,Stiripentol:MCnc:Pt:Ser/Plas:Qn:
+54940-2,Styrene,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ug/L,"Styrene [Mass/volume] in Serum or Plasma",ug/L,2.27,false,Styrene:MCnc:Pt:Ser/Plas:Qn:
+79665-6,"Purine & Pyrimidine panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.54,ACTIVE,1,Order,,,"Purine and Pyrimidine panel - Serum or Plasma",,2.54,true,"Purine & Pyrimidine panel:-:Pt:Ser/Plas:-:"
+72306-4,Nicotinurate,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ng/mL,"Nicotinurate [Mass/volume] in Serum or Plasma",ng/mL,2.42,false,Nicotinurate:MCnc:Pt:Ser/Plas:Qn:
+104313-2,Niraparib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Niraparib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Niraparib:MCnc:Pt:Ser/Plas:Qn:
+93692-2,"Nonalcoholic steatohepatitis score",Score,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Observation,,score,"Nonalcoholic steatohepatitis score in Serum or Plasma",{score},2.67,false,"Nonalcoholic steatohepatitis score:Score:Pt:Ser/Plas:Qn:"
+85099-0,Norescitalopram,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.58,ACTIVE,1,Both,,ug/L,"Norescitalopram [Mass/volume] in Serum or Plasma",ug/L,2.58,false,Norescitalopram:MCnc:Pt:Ser/Plas:Qn:
+10544-5,Normeperidine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Normeperidine [Presence] in Serum or Plasma",,1.0i,false,Normeperidine:PrThr:Pt:Ser/Plas:Ord:
+2669-0,Normetanephrine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pg/mL,"Normetanephrine [Mass/volume] in Serum or Plasma",pg/mL,1.0,false,Normetanephrine:MCnc:Pt:Ser/Plas:Qn:
+79695-3,Octadecatetraenoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Both,,umol/L,"Octadecatetraenoate (C18:4w3) [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Octadecatetraenoate:SCnc:Pt:Ser/Plas:Qn:
+18448-1,"Octanoylcarnitine (C8)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Octanoylcarnitine (C8) [Mass/volume] in Serum or Plasma",,1.0l,false,"Octanoylcarnitine (C8):MCnc:Pt:Ser/Plas:Qn:"
+30540-9,"Octanoylcarnitine (C8)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Octanoylcarnitine (C8) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Octanoylcarnitine (C8):SCnc:Pt:Ser/Plas:Qn:"
+58016-7,Octreotide,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,pg/mL,"Octreotide [Mass/volume] in Serum or Plasma",pg/mL,2.29,false,Octreotide:MCnc:Pt:Ser/Plas:Qn:
+104311-6,Olaparib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Olaparib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Olaparib:MCnc:Pt:Ser/Plas:Qn:
+10837-3,"Organic acids",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Organic acids [Presence] in Serum or Plasma",,1.0j-a,false,"Organic acids:PrThr:Pt:Ser/Plas:Ord:"
+69772-2,Orotate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Orotate [Moles/volume] in Serum or Plasma",umol/L,2.40,false,Orotate:SCnc:Pt:Ser/Plas:Qn:
+74523-2,"Nonanoylcarnitine (C9)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,umol/L,"Nonanoylcarnitine (C9) [Moles/volume] in Serum or Plasma",umol/L,2.48,false,"Nonanoylcarnitine (C9):SCnc:Pt:Ser/Plas:Qn:"
+13571-5,Norclozapine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Norclozapine [Presence] in Serum or Plasma",,1.0k,false,Norclozapine:PrThr:Pt:Ser/Plas:Ord:
+13575-6,Normaprotiline,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Normaprotiline [Presence] in Serum or Plasma",,1.0k,false,Normaprotiline:PrThr:Pt:Ser/Plas:Ord:
+25489-6,Normetanephrine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Normetanephrine [Moles/volume] in Serum or Plasma",nmol/L,2.00,false,Normetanephrine:SCnc:Pt:Ser/Plas:Qn:
+90976-2,Opipramol,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.65,ACTIVE,1,Both,,ng/mL,"Opipramol [Mass/volume] in Serum or Plasma",ng/mL,2.65,false,Opipramol:MCnc:Pt:Ser/Plas:Qn:
+17387-2,"Organic acids",ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Organic acids [Units/volume] in Serum or Plasma",[arb'U]/mL,1.0l,false,"Organic acids:ACnc:Pt:Ser/Plas:Qn:"
+35866-3,"Organic acids panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.42,ACTIVE,1,Order,,,"Organic acids panel - Serum or Plasma",,2.13,true,"Organic acids panel:-:Pt:Ser/Plas:-:"
+9791-5,"Organochlorine pesticides",Type,Pt,Ser/Plas,Nom,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Organochlorine pesticides [Type] in Serum or Plasma",,1.0i,false,"Organochlorine pesticides:Type:Pt:Ser/Plas:Nom:"
+2697-1,Osteocalcin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/L;ng/mL,"Osteocalcin [Mass/volume] in Serum or Plasma",ug/L,1.0,false,Osteocalcin:MCnc:Pt:Ser/Plas:Qn:
+35218-7,Osteocalcin,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Osteocalcin [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Osteocalcin:MSCnc:Pt:Ser/Plas:Qn:
+15084-7,Osteocalcin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,pmol/L,"Osteocalcin [Moles/volume] in Serum or Plasma",pmol/L,1.0k,false,Osteocalcin:SCnc:Pt:Ser/Plas:Qn:
+2075-0,Chloride,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L,"Chloride [Moles/volume] in Serum or Plasma",mmol/L,1.0,false,Chloride:SCnc:Pt:Ser/Plas:Qn:
+12427-1,Chlormezanone,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ug/mL,"Chlormezanone [Mass/volume] in Serum or Plasma",ug/mL,1.0j-a,false,Chlormezanone:MCnc:Pt:Ser/Plas:Qn:
+18386-3,Chlorothiazide,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Chlorothiazide [Presence] in Serum or Plasma",,1.0l,false,Chlorothiazide:PrThr:Pt:Ser/Plas:Ord:
+13548-3,chlorproMAZINE,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"chlorproMAZINE [Presence] in Serum or Plasma",,1.0k,false,chlorproMAZINE:PrThr:Pt:Ser/Plas:Ord:
+48329-7,chlorproPAMIDE,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"chlorproPAMIDE [Presence] in Serum or Plasma",,2.21,false,chlorproPAMIDE:PrThr:Pt:Ser/Plas:Ord:
+30518-5,Cholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Cholate [Moles/volume] in Serum or Plasma",umol/L,2.04,false,Cholate:SCnc:Pt:Ser/Plas:Qn:
+17251-0,Mepivacaine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Mepivacaine [Presence] in Serum or Plasma",,1.0l,false,Mepivacaine:PrThr:Pt:Ser/Plas:Ord:
+17252-8,Mercaptopurine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Mercaptopurine [Presence] in Serum or Plasma",,1.0l,false,Mercaptopurine:PrThr:Pt:Ser/Plas:Ord:
+13566-5,Mesoridazine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Mesoridazine [Presence] in Serum or Plasma",,1.0k,false,Mesoridazine:PrThr:Pt:Ser/Plas:Ord:
+49898-0,"Metabolic syndrome",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,,"Metabolic syndrome [Presence] in Serum or Plasma",,2.22,false,"Metabolic syndrome:PrThr:Pt:Ser/Plas:Ord:"
+29141-9,Metanephrine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pg/mL,"Metanephrine [Mass/volume] in Serum or Plasma",pg/mL,2.03,false,Metanephrine:MCnc:Pt:Ser/Plas:Qn:
+25473-0,Metanephrine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Metanephrine [Moles/volume] in Serum or Plasma",nmol/L,2.00,false,Metanephrine:SCnc:Pt:Ser/Plas:Qn:
+29142-7,Metanephrines,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pg/mL,"Metanephrines [Mass/volume] in Serum or Plasma",pg/mL,2.03,false,Metanephrines:MCnc:Pt:Ser/Plas:Qn:
+25474-8,Metanephrines,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Metanephrines [Moles/volume] in Serum or Plasma",nmol/L,2.00,false,Metanephrines:SCnc:Pt:Ser/Plas:Qn:
+35485-2,Metasystox,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Metasystox [Mass/volume] in Serum or Plasma",ug/mL,2.13,false,Metasystox:MCnc:Pt:Ser/Plas:Qn:
+2121-2,Chylomicrons,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Chylomicrons [Presence] in Serum or Plasma",,1.0,false,Chylomicrons:PrThr:Pt:Ser/Plas:Ord:
+3481-9,Cimetidine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Cimetidine [Presence] in Serum or Plasma",,1.0,false,Cimetidine:PrThr:Pt:Ser/Plas:Ord:
+2127-9,Citrate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/mL,"Citrate [Mass/volume] in Serum or Plasma",ug/mL,1.0,false,Citrate:MCnc:Pt:Ser/Plas:Qn:
+15038-3,Citrate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Citrate [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Citrate:SCnc:Pt:Ser/Plas:Qn:
+2130-3,Citrulline,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Citrulline [Mass/volume] in Serum or Plasma",,1.0,false,Citrulline:MCnc:Pt:Ser/Plas:Qn:
+20640-9,Citrulline,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"mcmol/dL; mcmol/L; umol/L","Citrulline [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Citrulline:SCnc:Pt:Ser/Plas:Qn:
+90975-4,Clomethiazole,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.65,ACTIVE,1,Both,,ng/mL,"Clomethiazole [Mass/volume] in Serum or Plasma",ng/mL,2.65,false,Clomethiazole:MCnc:Pt:Ser/Plas:Qn:
+13550-9,clonazePAM,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"clonazePAM [Presence] in Serum or Plasma",,1.0k,false,clonazePAM:PrThr:Pt:Ser/Plas:Ord:
+13551-7,Clorazepate,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Clorazepate [Presence] in Serum or Plasma",,1.0k,false,Clorazepate:PrThr:Pt:Ser/Plas:Ord:
+13552-5,cloZAPine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"cloZAPine [Presence] in Serum or Plasma",,1.0k,false,cloZAPine:PrThr:Pt:Ser/Plas:Ord:
+2490-1,Inulin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.34,ACTIVE,1,Both,,,"Inulin [Mass/volume] in Serum or Plasma",,1.0,false,Inulin:MCnc:Pt:Ser/Plas:Qn:
+59697-3,Iodide,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Iodide [Mass/volume] in Serum or Plasma",ug/mL,2.34,false,Iodide:MCnc:Pt:Ser/Plas:Qn:
+2494-3,Iodine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/mL,"Iodine [Mass/volume] in Serum or Plasma",ug/mL,1.0,false,Iodine:MCnc:Pt:Ser/Plas:Qn:
+25448-2,Iodine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,umol/L,"Iodine [Moles/volume] in Serum or Plasma",umol/L,2.00,false,Iodine:SCnc:Pt:Ser/Plas:Qn:
+44324-2,Iodine.inorganic,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Iodine.inorganic [Presence] in Serum or Plasma",,2.17,false,Iodine.inorganic:PrThr:Pt:Ser/Plas:Ord:
+2498-4,Iron,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/L,"Iron [Mass/volume] in Serum or Plasma",ug/dL,1.0,false,Iron:MCnc:Pt:Ser/Plas:Qn:
+35214-6,Iron,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Iron [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Iron:MSCnc:Pt:Ser/Plas:Qn:
+75689-0,"Iron panel",-,Pt,Ser/Plas,Qn,,PANEL.CHEM,2.73,ACTIVE,1,Order,,,"Iron panel - Serum or Plasma",,2.50,true,"Iron panel:-:Pt:Ser/Plas:Qn:"
+43243-5,"Isobutyrylcarnitine (C4)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,umol/L,"Isobutyrylcarnitine (C4) [Moles/volume] in Serum or Plasma",umol/L,2.17,false,"Isobutyrylcarnitine (C4):SCnc:Pt:Ser/Plas:Qn:"
+75090-1,Isocitrate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,umol/L,"Isocitrate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Isocitrate:SCnc:Pt:Ser/Plas:Qn:
+18441-6,"Isovalerylcarnitine (C5)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Isovalerylcarnitine (C5) [Mass/volume] in Serum or Plasma",,1.0l,false,"Isovalerylcarnitine (C5):MCnc:Pt:Ser/Plas:Qn:"
+39009-6,"Isovalerylcarnitine (C5)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,umol/L;nmol/mL,"Isovalerylcarnitine (C5) [Moles/volume] in Serum or Plasma",umol/L,2.15,false,"Isovalerylcarnitine (C5):SCnc:Pt:Ser/Plas:Qn:"
+42922-5,Ketamine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Ketamine [Presence] in Serum or Plasma",,2.16,false,Ketamine:PrThr:Pt:Ser/Plas:Ord:
+2513-0,Ketones,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Ketones [Presence] in Serum or Plasma",,1.0,false,Ketones:PrThr:Pt:Ser/Plas:Ord:
+53469-3,Kynurenate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.75,ACTIVE,1,Both,,nmol/L,"Kynurenate [Moles/volume] in Serum or Plasma",nmol/L,2.26,false,Kynurenate:SCnc:Pt:Ser/Plas:Qn:
+53734-0,Kynurenine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.36,DEPRECATED,1,Both,,,"Deprecated Kynurenine [Molecules/volume] in Serum or Plasma",,2.26,false,Kynurenine:SCnc:Pt:Ser/Plas:Qn:
+51982-7,lamoTRIgine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"lamoTRIgine [Presence] in Serum or Plasma",,2.24,false,lamoTRIgine:PrThr:Pt:Ser/Plas:Ord:
+9473-0,Heptachlorepoxide,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ppb,"Heptachlorepoxide [Mass/volume] in Serum or Plasma",[ppb],1.0i,false,Heptachlorepoxide:MCnc:Pt:Ser/Plas:Qn:
+55871-8,"Heptanoylcarnitine (C7)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Heptanoylcarnitine (C7) [Moles/volume] in Serum or Plasma",umol/L,2.29,false,"Heptanoylcarnitine (C7):SCnc:Pt:Ser/Plas:Qn:"
+28077-6,Hexachlorobutadiene,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Hexachlorobutadiene [Presence] in Serum or Plasma",,2.00,false,Hexachlorobutadiene:PrThr:Pt:Ser/Plas:Ord:
+85087-5,Hexanoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.58,ACTIVE,1,Both,,umol/L,"Hexanoate (C6:0) [Moles/volume] in Serum or Plasma",umol/L,2.58,false,Hexanoate:SCnc:Pt:Ser/Plas:Qn:
+18443-2,"Hexanoylcarnitine (C6)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Hexanoylcarnitine (C6) [Mass/volume] in Serum or Plasma",,1.0l,false,"Hexanoylcarnitine (C6):MCnc:Pt:Ser/Plas:Qn:"
+30358-6,"Hexanoylcarnitine (C6)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Hexanoylcarnitine (C6) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Hexanoylcarnitine (C6):SCnc:Pt:Ser/Plas:Qn:"
+79473-5,Hexanoylglycine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Hexanoylglycine [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Hexanoylglycine:SCnc:Pt:Ser/Plas:Qn:
+35260-9,Histamine,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Histamine [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Histamine:MSCnc:Pt:Ser/Plas:Qn:
+27972-9,Histidine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,ACTIVE,1,Observation,,,"Histidine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Histidine:ACnc:Pt:Ser/Plas:Qn:
+2420-8,Histidine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Histidine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Histidine:MCnc:Pt:Ser/Plas:Qn:
+20645-8,Histidine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Histidine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Histidine:SCnc:Pt:Ser/Plas:Qn:
+55876-7,Homocitrulline,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Homocitrulline [Moles/volume] in Serum or Plasma",umol/L,2.29,false,Homocitrulline:SCnc:Pt:Ser/Plas:Qn:
+27352-4,Homocystine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,ACTIVE,1,Observation,,,"Homocystine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Homocystine:ACnc:Pt:Ser/Plas:Qn:
+93695-5,"Liver steatosis score",Score,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Observation,,score,"Liver steatosis score in Serum or Plasma",{score},2.67,false,"Liver steatosis score:Score:Pt:Ser/Plas:Qn:"
+34332-7,Lormetazepam,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ng/mL,"Lormetazepam [Mass/volume] in Serum or Plasma",ng/mL,2.10,false,Lormetazepam:MCnc:Pt:Ser/Plas:Qn:
+3727-5,Loxapine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Loxapine [Presence] in Serum or Plasma",,1.0,false,Loxapine:PrThr:Pt:Ser/Plas:Ord:
+27333-4,Lysine,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Lysine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Lysine:ACnc:Pt:Ser/Plas:Qn:
+2585-8,Lysine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Lysine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Lysine:MCnc:Pt:Ser/Plas:Qn:
+20650-8,Lysine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Lysine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Lysine:SCnc:Pt:Ser/Plas:Qn:
+2591-6,Macroamylase,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Macroamylase [Enzymatic activity/volume] in Serum or Plasma",U/L,1.0,false,Macroamylase:CCnc:Pt:Ser/Plas:Qn:
+2592-4,Macroglobulin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,ng/mL,"Macroglobulin [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Macroglobulin:MCnc:Pt:Ser/Plas:Qn:
+74953-1,Macroprolactin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Macroprolactin [Units/volume] in Serum or Plasma",[arb'U]/L,2.48,false,Macroprolactin:ACnc:Pt:Ser/Plas:Qn:
+72680-2,Macroprolactin,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Both,,,"Macroprolactin [Presence] in Serum or Plasma",,2.42,false,Macroprolactin:PrThr:Pt:Ser/Plas:Ord:
+19123-9,Magnesium,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Magnesium [Mass/volume] in Serum or Plasma",mg/dL,1.0l,false,Magnesium:MCnc:Pt:Ser/Plas:Qn:
+35249-2,Magnesium,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Magnesium [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Magnesium:MSCnc:Pt:Ser/Plas:Qn:
+11554-3,Magnesium,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.36,DEPRECATED,1,,,mmol/L,"Deprecated Magnesium [Molecules/volume] in Serum or Plasma",mmol/L,1.0j-a,false,Magnesium:SCnc:Pt:Ser/Plas:Qn:
+2601-3,Magnesium,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L,"Magnesium [Moles/volume] in Serum or Plasma",mmol/L,1.0,false,Magnesium:SCnc:Pt:Ser/Plas:Qn:
+75068-7,Malate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Malate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Malate:SCnc:Pt:Ser/Plas:Qn:
+75061-2,Malonate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Malonate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Malonate:SCnc:Pt:Ser/Plas:Qn:
+75072-9,Mandelate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Mandelate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Mandelate:SCnc:Pt:Ser/Plas:Qn:
+33838-4,Mannitol,SCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.34,ACTIVE,1,Both,,mmol/L,"Mannitol [Moles/volume] in Serum or Plasma",mmol/L,2.09,false,Mannitol:SCnc:Pt:Ser/Plas:Qn:
+3734-1,Maprotiline,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Maprotiline [Presence] in Serum or Plasma",,1.0,false,Maprotiline:PrThr:Pt:Ser/Plas:Ord:
+88987-3,Maraviroc,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.64,ACTIVE,1,Both,,ng/mL,"Maraviroc [Mass/volume] in Serum or Plasma",ng/mL,2.64,false,Maraviroc:MCnc:Pt:Ser/Plas:Qn:
+104309-0,Ribociclib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Ribociclib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Ribociclib:MCnc:Pt:Ser/Plas:Qn:
+2924-9,Riboflavin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/dL,"Riboflavin [Mass/volume] in Serum or Plasma",ug/dL,1.0,false,Riboflavin:MCnc:Pt:Ser/Plas:Qn:
+49038-3,Riboflavin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Riboflavin [Moles/volume] in Serum or Plasma",nmol/L,2.21,false,Riboflavin:SCnc:Pt:Ser/Plas:Qn:
+80547-3,Rilpivirine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.56,ACTIVE,1,Both,,ug/L,"Rilpivirine [Mass/volume] in Serum or Plasma",ug/L,2.56,false,Rilpivirine:MCnc:Pt:Ser/Plas:Qn:
+105041-8,Risankizumab,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.78,ACTIVE,1,Both,,mg/dL,"Risankizumab [Mass/volume] in Serum or Plasma",mg/dL,2.78,false,Risankizumab:MCnc:Pt:Ser/Plas:Qn:
+105194-5,"Risankizumab Ab panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.78,ACTIVE,1,Order,,,"Risankizumab Ab panel - Serum or Plasma",,2.78,true,"Risankizumab Ab panel:-:Pt:Ser/Plas:-:"
+32128-1,risperiDONE,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"risperiDONE [Presence] in Serum or Plasma",,2.07,false,risperiDONE:PrThr:Pt:Ser/Plas:Ord:
+29122-9,Ritonavir,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Ritonavir [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Ritonavir:ACnc:Pt:Ser/Plas:Qn:
+100352-4,Rosiglitazone,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,Qualitative,"Rosiglitazone [Presence] in Serum or Plasma",ng/mL,2.73,false,Rosiglitazone:PrThr:Pt:Ser/Plas:Ord:
+5692-9,Methanol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Methanol [Presence] in Serum or Plasma",,1.0,false,Methanol:PrThr:Pt:Ser/Plas:Ord:
+2611-2,Methcoproporphyrin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.44,ACTIVE,1,Observation,,ug/dL,"Methcoproporphyrin [Mass/volume] in Serum or Plasma",ug/dL,1.0,false,Methcoproporphyrin:MCnc:Pt:Ser/Plas:Qn:
+3789-5,Methocarbamol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Methocarbamol [Presence] in Serum or Plasma",,1.0,false,Methocarbamol:PrThr:Pt:Ser/Plas:Ord:
+3811-7,Methyprylon,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Methyprylon [Presence] in Serum or Plasma",,1.0,false,Methyprylon:PrThr:Pt:Ser/Plas:Ord:
+13567-3,Mexiletine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Mexiletine [Presence] in Serum or Plasma",,1.0k,false,Mexiletine:PrThr:Pt:Ser/Plas:Ord:
+101455-4,"Mitochondrial metabolites panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.75,ACTIVE,1,Order,,,"Mitochondrial metabolites panel - Serum or Plasma",,2.74,true,"Mitochondrial metabolites panel:-:Pt:Ser/Plas:-:"
+90992-9,"Monoclonal gammopathy panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.65,ACTIVE,1,Order,,,"Monoclonal gammopathy panel - Serum or Plasma",,2.65,true,"Monoclonal gammopathy panel:-:Pt:Ser/Plas:-:"
+11252-4,Scopolamine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ng/mL,"Scopolamine [Mass/volume] in Serum or Plasma",ng/mL,1.0j-a,false,Scopolamine:MCnc:Pt:Ser/Plas:Qn:
+13579-8,Sertraline,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Sertraline [Presence] in Serum or Plasma",,1.0k,false,Sertraline:PrThr:Pt:Ser/Plas:Ord:
+42570-2,Sodium,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Sodium [Mass or Moles/volume] in Serum or Plasma",,2.16,false,Sodium:MSCnc:Pt:Ser/Plas:Qn:
+2951-2,Sodium,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L,"Sodium [Moles/volume] in Serum or Plasma",mmol/L,1.0,false,Sodium:SCnc:Pt:Ser/Plas:Qn:
+104312-4,Rucaparib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Rucaparib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Rucaparib:MCnc:Pt:Ser/Plas:Qn:
+20393-5,"Sample hemolyzed",PrThr,Pt,Ser/Plas,Ord,,SPEC,2.73,ACTIVE,1,Observation,,,"Sample hemolyzed [Presence] of Serum or Plasma Qualitative",,1.0m,false,"Sample hemolyzed:PrThr:Pt:Ser/Plas:Ord:"
+20392-7,"Sample icteric",PrThr,Pt,Ser/Plas,Ord,,SPEC,2.73,ACTIVE,1,Observation,,,"Sample icteric [Presence] of Serum or Plasma Qualitative",,1.0m,false,"Sample icteric:PrThr:Pt:Ser/Plas:Ord:"
+20394-3,"Sample lipemic",PrThr,Pt,Ser/Plas,Ord,,SPEC,2.73,ACTIVE,1,Observation,,,"Sample lipemic [Presence] of Serum or Plasma Qualitative",,1.0m,false,"Sample lipemic:PrThr:Pt:Ser/Plas:Ord:"
+2931-4,Sarcosine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Sarcosine [Mass/volume] in Serum or Plasma",,1.0,false,Sarcosine:MCnc:Pt:Ser/Plas:Qn:
+26613-0,Sarcosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/dL; mcmol/L","Sarcosine [Moles/volume] in Serum or Plasma",umol/L,2.00,false,Sarcosine:SCnc:Pt:Ser/Plas:Qn:
+2486-9,Somatomedins,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.44,DISCOURAGED,1,Both,,,"Somatomedins [Mass/volume] in Serum or Plasma",,1.0,false,Somatomedins:MCnc:Pt:Ser/Plas:Qn:
+12336-4,hydrALAZINE,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"hydrALAZINE [Presence] in Serum or Plasma",,1.0j-a,false,hydrALAZINE:PrThr:Pt:Ser/Plas:Ord:
+27160-1,Hydrastine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Hydrastine [Presence] in Serum or Plasma",,2.00,false,Hydrastine:PrThr:Pt:Ser/Plas:Ord:
+2441-4,Hydroxylysine,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.56,ACTIVE,1,Observation,,,"Hydroxylysine [Presence] in Serum or Plasma",,1.0,false,Hydroxylysine:PrThr:Pt:Ser/Plas:Ord:
+15368-4,Hypoglycemics.sulfonyluric,Prid,Pt,Ser/Plas,Nom,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Hypoglycemics.sulfonyluric [Identifier] in Serum or Plasma",,1.0k,false,Hypoglycemics.sulfonyluric:Prid:Pt:Ser/Plas:Nom:
+26847-4,Haloperidol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Haloperidol [Presence] in Serum or Plasma",,2.00,false,Haloperidol:PrThr:Pt:Ser/Plas:Ord:
+79515-3,Gentisate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Gentisate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Gentisate:SCnc:Pt:Ser/Plas:Qn:
+74094-4,Gliclazide,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.46,ACTIVE,1,Both,,ug/mL,"Gliclazide [Mass/volume] in Serum or Plasma",ug/mL,2.46,false,Gliclazide:MCnc:Pt:Ser/Plas:Qn:
+48325-5,Glimepiride,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Glimepride [Presence] in Serum or Plasma",,2.21,false,Glimepiride:PrThr:Pt:Ser/Plas:Ord:
+48326-3,glipiZIDE,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"glipiZIDE [Presence] in Serum or Plasma",,2.21,false,glipiZIDE:PrThr:Pt:Ser/Plas:Ord:
+74093-6,Gliquidone,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.46,ACTIVE,1,Both,,ug/mL,"Gliquidone [Mass/volume] in Serum or Plasma",ug/mL,2.46,false,Gliquidone:MCnc:Pt:Ser/Plas:Qn:
+2338-2,Glucagon,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/L;pg/mL,"Glucagon [Mass/volume] in Serum or Plasma",pg/mL,1.0,false,Glucagon:MCnc:Pt:Ser/Plas:Qn:
+66734-5,Glucagon,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,DISCOURAGED,1,Both,,"ng/L, pmol/L","Glucagon [Mass or Moles/volume] in Serum or Plasma","ng/L; pmol/L",2.38,false,Glucagon:MSCnc:Pt:Ser/Plas:Qn:
+15073-0,Glucagon,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,pmol/L,"Glucagon [Moles/volume] in Serum or Plasma",pmol/L,1.0k,false,Glucagon:SCnc:Pt:Ser/Plas:Qn:
+6777-7,Glucose,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.36,DEPRECATED,1,,,,"Deprecated Glucose [Mass/volume] in Serum or Plasma",,1.0h(2),false,Glucose:MCnc:Pt:Ser/Plas:Qn:
+14749-6,Glucose,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mmol/L,"Glucose [Moles/volume] in Serum or Plasma",mmol/L,1.0k,false,Glucose:SCnc:Pt:Ser/Plas:Qn:
+2364-8,Glutamate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Glutamate [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Glutamate:MCnc:Pt:Ser/Plas:Qn:
+20642-5,Glutamate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Glutamate [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Glutamate:SCnc:Pt:Ser/Plas:Qn:
+35133-8,Glutarate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,ng/mL,"Glutarate [Mass/volume] in Serum or Plasma",ng/mL,2.11,false,Glutarate:MCnc:Pt:Ser/Plas:Qn:
+27301-1,Glutarate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/mL,"Glutarate [Moles/volume] in Serum or Plasma",nmol/mL,2.00,false,Glutarate:SCnc:Pt:Ser/Plas:Qn:
+92937-2,Eslicarbazepine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.66,ACTIVE,1,Both,,ug/mL,"Eslicarbazepine [Mass/volume] in Serum or Plasma",ug/mL,2.66,false,Eslicarbazepine:MCnc:Pt:Ser/Plas:Qn:
+35208-8,Estrone,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Estrone (E1) [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Estrone:MSCnc:Pt:Ser/Plas:Qn:
+2263-2,Ethanolamine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Ethanolamine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Ethanolamine:MCnc:Pt:Ser/Plas:Qn:
+26608-0,Ethanolamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,umol/L,"Ethanolamine [Moles/volume] in Serum or Plasma",umol/L,2.00,false,Ethanolamine:SCnc:Pt:Ser/Plas:Qn:
+16847-6,Ethoheptazine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Ethoheptazine [Presence] in Serum or Plasma",,1.0l,false,Ethoheptazine:PrThr:Pt:Ser/Plas:Ord:
+79476-8,Ethylmalonate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Ethylmalonate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Ethylmalonate:SCnc:Pt:Ser/Plas:Qn:
+13614-3,Etiocholanolone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,ng/dL,"Etiocholanolone [Mass/volume] in Serum or Plasma",ng/dL,1.0k,false,Etiocholanolone:MCnc:Pt:Ser/Plas:Qn:
+80157-1,Etiocholanolone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,nmol/L,"Etiocholanolone [Moles/volume] in Serum or Plasma",nmol/L,2.54,false,Etiocholanolone:SCnc:Pt:Ser/Plas:Qn:
+103204-4,"External Steroid panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.77,ACTIVE,1,Order,,,"External Steroid panel Serum or Plasma",,2.75,true,"External Steroid panel:-:Pt:Ser/Plas:-:"
+29118-7,Indinavir,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Indinavir [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Indinavir:ACnc:Pt:Ser/Plas:Qn:
+2478-6,Inhibin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/L;pg/mL,"Inhibin [Mass/volume] in Serum or Plasma",ng/L,1.0,false,Inhibin:MCnc:Pt:Ser/Plas:Qn:
+27014-0,"Inhibin A",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Inhibin A [Presence] in Serum or Plasma",,2.00,false,"Inhibin A:PrThr:Pt:Ser/Plas:Ord:"
+30521-9,"Inhibin B",ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/mL","Inhibin B [Units/volume] in Serum or Plasma",[IU]/mL,2.04,false,"Inhibin B:ACnc:Pt:Ser/Plas:Qn:"
+39532-7,"Inhibin B",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Inhibin B [Presence] in Serum or Plasma",,2.15,false,"Inhibin B:PrThr:Pt:Ser/Plas:Ord:"
+104314-0,Lenvatinib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Lenvatinib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Lenvatinib:MCnc:Pt:Ser/Plas:Qn:
+104307-4,Letrozole,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Letrozole [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Letrozole:MCnc:Pt:Ser/Plas:Qn:
+12726-6,Leucine-enkephalin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.44,ACTIVE,1,Both,,pg/mL,"Leucine-enkephalin [Units/volume] in Serum or Plasma",pg/mL,1.0j-a,false,Leucine-enkephalin:ACnc:Pt:Ser/Plas:Qn:
+21368-6,levoFLOXacin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"levoFLOXacin [Mass/volume] in Serum or Plasma",ug/mL,1.0m,false,levoFLOXacin:MCnc:Pt:Ser/Plas:Qn:
+79484-2,Levulinate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Levulinate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Levulinate:SCnc:Pt:Ser/Plas:Qn:
+100743-4,Lipase.macromolecular,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Observation,,-,"Lipase.macromolecular [Presence] in Serum or Plasma",,2.73,false,Lipase.macromolecular:PrThr:Pt:Ser/Plas:Ord:
+2576-7,Lipoprotein,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Lipoproteins [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Lipoprotein:MCnc:Pt:Ser/Plas:Qn:
+42178-4,Lipoprotein.X,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Lipoprotein.X [Presence] in Serum or Plasma",,2.16,false,Lipoprotein.X:PrThr:Pt:Ser/Plas:Ord:
+3720-0,Lithium,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.77,ACTIVE,1,Both,,,"Lithium [Presence] in Serum or Plasma",,1.0,false,Lithium:PrThr:Pt:Ser/Plas:Ord:
+74897-0,Lithocholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,umol/L,"Lithocholate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Lithocholate:SCnc:Pt:Ser/Plas:Qn:
+79393-5,"Flavin mononucleotide",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,nmol/L,"Flavin mononucleotide [Moles/volume] in Serum or Plasma",nmol/L,2.54,false,"Flavin mononucleotide:SCnc:Pt:Ser/Plas:Qn:"
+13559-0,Flecainide,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Flecainide [Presence] in Serum or Plasma",,1.0k,false,Flecainide:PrThr:Pt:Ser/Plas:Ord:
+41754-3,Fludrocortisone,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Fludrocortisone [Mass/volume] in Serum or Plasma",ug/mL,2.16,false,Fludrocortisone:MCnc:Pt:Ser/Plas:Qn:
+101835-7,Fludrocortisone,SCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.76,ACTIVE,1,Both,,nmol/L,"Fludrocortisone [Moles/volume] in Serum or Plasma",nmol/L,2.75,false,Fludrocortisone:SCnc:Pt:Ser/Plas:Qn:
+3643-4,FLUoxetine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"FLUoxetine [Presence] in Serum or Plasma",,1.0,false,FLUoxetine:PrThr:Pt:Ser/Plas:Ord:
+38899-1,fluPHENAZine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"fluPHENAZine [Presence] in Serum or Plasma",,2.15,false,fluPHENAZine:PrThr:Pt:Ser/Plas:Ord:
+3652-5,Flurazepam,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Flurazepam [Presence] in Serum or Plasma",,1.0,false,Flurazepam:PrThr:Pt:Ser/Plas:Ord:
+79445-3,Fluspirilene,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.54,ACTIVE,1,Both,,ug/L,"Fluspirilene [Mass/volume] in Serum or Plasma",ug/L,2.54,false,Fluspirilene:MCnc:Pt:Ser/Plas:Qn:
+13560-8,fluvoxaMINE,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"fluvoxaMINE [Presence] in Serum or Plasma",,1.0k,false,fluvoxaMINE:PrThr:Pt:Ser/Plas:Ord:
+15067-2,Follitropin,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,IU/L;mIU/mL,"Follitropin [Units/volume] in Serum or Plasma",m[IU]/mL,1.0k,false,Follitropin:ACnc:Pt:Ser/Plas:Qn:
+27942-2,Follitropin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,ng/mL,"Follitropin [Mass/volume] in Serum or Plasma",ng/mL,2.00,false,Follitropin:MCnc:Pt:Ser/Plas:Qn:
+2286-3,Follitropin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Follitropin [Moles/volume] in Serum or Plasma",,1.0,false,Follitropin:SCnc:Pt:Ser/Plas:Qn:
+79628-4,Formiminoglutamate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.56,ACTIVE,1,Observation,,umol/L,"Formiminoglutamate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Formiminoglutamate:SCnc:Pt:Ser/Plas:Qn:
+75081-0,Fumarate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,umol/L,"Fumarate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Fumarate:SCnc:Pt:Ser/Plas:Qn:
+76487-8,IgA,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"IgA [Moles/volume] in Serum or Plasma",umol/L,2.52,false,IgA:SCnc:Pt:Ser/Plas:Qn:
+19113-0,IgE,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"kIU/L; units; units/mL","IgE [Units/volume] in Serum or Plasma",[IU]/L,1.0l,false,IgE:ACnc:Pt:Ser/Plas:Qn:
+77177-4,IgG,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"IgG [Moles/volume] in Serum or Plasma",umol/L,2.52,false,IgG:SCnc:Pt:Ser/Plas:Qn:
+76491-0,IgM,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"IgM [Moles/volume] in Serum or Plasma",umol/L,2.52,false,IgM:SCnc:Pt:Ser/Plas:Qn:
+3689-7,Imipramine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Imipramine [Presence] in Serum or Plasma",,1.0,false,Imipramine:PrThr:Pt:Ser/Plas:Ord:
+12435-4,Naphthalene,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ug/mL,"Naphthalene [Mass/volume] in Serum or Plasma",ug/mL,1.0j-a,false,Naphthalene:MCnc:Pt:Ser/Plas:Qn:
+12436-2,Naphthol,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.34,ACTIVE,1,Both,,,"Naphthol [Mass/volume] in Serum or Plasma",,1.0j-a,false,Naphthol:MCnc:Pt:Ser/Plas:Qn:
+49487-2,Nateglinide,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Nateglinide [Presence] in Serum or Plasma",,2.22,false,Nateglinide:PrThr:Pt:Ser/Plas:Ord:
+35259-1,Neopterin,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Neopterin [Mass or Moles/volume] in Serum or Plasma",,2.11,false,Neopterin:MSCnc:Pt:Ser/Plas:Qn:
+51986-8,niCARdipine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"niCARdipine [Presence] in Serum or Plasma",,2.24,false,niCARdipine:PrThr:Pt:Ser/Plas:Ord:
+60114-6,PACLitaxel,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ng/mL,"PACLitaxel [Mass/volume] in Serum or Plasma",ng/mL,2.34,false,PACLitaxel:MCnc:Pt:Ser/Plas:Qn:
+104308-2,Palbociclib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Palbociclib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Palbociclib:MCnc:Pt:Ser/Plas:Qn:
+39616-8,Palmitoylcarnitine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,DEPRECATED,1,Observation,,nmol/mL,"Deprecated Palmitoylcarnitine (C16) [Molecules/volume] in Serum or Plasma",nmol/mL,2.15,false,Palmitoylcarnitine:SCnc:Pt:Ser/Plas:Qn:
+18460-6,"Palmitoylcarnitine (C16)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Palmitoylcarnitine (C16) [Mass/volume] in Serum or Plasma",,1.0l,false,"Palmitoylcarnitine (C16):MCnc:Pt:Ser/Plas:Qn:"
+30356-0,"Palmitoylcarnitine (C16)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Palmitoylcarnitine (C16) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Palmitoylcarnitine (C16):SCnc:Pt:Ser/Plas:Qn:"
+5709-1,Paraquat,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,mg/L,"Paraquat [Mass/volume] in Serum or Plasma",mg/L,1.0,false,Paraquat:MCnc:Pt:Ser/Plas:Qn:
+59070-3,Paraquat,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Paraquat [Presence] in Serum or Plasma",,2.32,false,Paraquat:PrThr:Pt:Ser/Plas:Ord:
+50893-7,Paraquat,SCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,umol/L,"Paraquat [Moles/volume] in Serum or Plasma",umol/L,2.22,false,Paraquat:SCnc:Pt:Ser/Plas:Qn:
+14865-0,Parathyrin,Imp,Pt,Ser/Plas,Nom,,CHEM,2.73,ACTIVE,1,Observation,,,"Parathyrin [Interpretation] in Serum or Plasma",,1.0k,false,Parathyrin:Imp:Pt:Ser/Plas:Nom:
+13577-2,PARoxetine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"PARoxetine [Presence] in Serum or Plasma",,1.0k,false,PARoxetine:PrThr:Pt:Ser/Plas:Ord:
+75062-0,Phenylacetate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Phenylacetate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Phenylacetate:SCnc:Pt:Ser/Plas:Qn:
+90237-9,"Phenylacetylcarnitine (PheC2)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.65,ACTIVE,1,Both,,nmol/mL,"Phenylacetylcarnitine (PheC2) [Moles/volume] in Serum or Plasma",nmol/mL,2.65,false,"Phenylacetylcarnitine (PheC2):SCnc:Pt:Ser/Plas:Qn:"
+2765-6,Phenylalanine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Phenylalanine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Phenylalanine:MCnc:Pt:Ser/Plas:Qn:
+14875-9,Phenylalanine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"umol/L;mcmol/dL; mcmol/L","Phenylalanine [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Phenylalanine:SCnc:Pt:Ser/Plas:Qn:
+20653-2,Phenylalanine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,DEPRECATED,1,,,umol/L,"Deprecated Phenylalanine [Molecules/volume] in Serum or Plasma",umol/L,1.0m,false,Phenylalanine:SCnc:Pt:Ser/Plas:Qn:
+72437-7,Phenyllactate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,umol/L,"Phenyllactate [Moles/volume] in Serum or Plasma",umol/L,2.42,false,Phenyllactate:SCnc:Pt:Ser/Plas:Qn:
+72436-9,Phenylpyruvate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,umol/L,"Phenylpyruvate [Moles/volume] in Serum or Plasma",umol/L,2.42,false,Phenylpyruvate:SCnc:Pt:Ser/Plas:Qn:
+2789-6,Phosphoethanolamine,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,mg/dL,"Phosphoethanolamine [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Phosphoethanolamine:MCnc:Pt:Ser/Plas:Qn:
+26612-2,Phosphoethanolamine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/dL; mcmol/L","Phosphoethanolamine [Moles/volume] in Serum or Plasma",nmol/mL,2.00,false,Phosphoethanolamine:SCnc:Pt:Ser/Plas:Qn:
+2568-4,Phospholipid,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Phospholipid [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Phospholipid:MCnc:Pt:Ser/Plas:Qn:
+2801-9,Phospholipid,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.36,DEPRECATED,1,,,,"Deprecated Phospholipid [Mass/volume] in Serum or Plasma",,1.0,false,Phospholipid:MCnc:Pt:Ser/Plas:Qn:
+15089-6,Phospholipid,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,mmol/L,"Phospholipid [Moles/volume] in Serum or Plasma",mmol/L,1.0k,false,Phospholipid:SCnc:Pt:Ser/Plas:Qn:
+2815-9,Porphyrins,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/dL,"Porphyrins [Mass/volume] in Serum or Plasma",ug/dL,1.0,false,Porphyrins:MCnc:Pt:Ser/Plas:Qn:
+33311-2,Porphyrins,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Porphyrins [Moles/volume] in Serum or Plasma",nmol/L,2.09,false,Porphyrins:SCnc:Pt:Ser/Plas:Qn:
+27882-0,Proinsulin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pmol/L,"Proinsulin [Moles/volume] in Serum or Plasma",pmol/L,2.00,false,Proinsulin:SCnc:Pt:Ser/Plas:Qn:
+14191-1,Prazosin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,mg/dL,"Prazosin [Mass/volume] in Serum or Plasma",mg/dL,1.0k,false,Prazosin:MCnc:Pt:Ser/Plas:Qn:
+77192-3,Prealbumin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Prealbumin [Moles/volume] in Serum or Plasma",umol/L,2.52,false,Prealbumin:SCnc:Pt:Ser/Plas:Qn:
+104106-0,Pregabalin,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.77,ACTIVE,1,Observation,,pos/neg,"Pregabalin [Presence] in Serum or Plasma",,2.77,false,Pregabalin:PrThr:Pt:Ser/Plas:Ord:
+32331-1,Myoglobin,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Myoglobin [Presence] in Serum or Plasma",,2.07,false,Myoglobin:PrThr:Pt:Ser/Plas:Ord:
+33959-8,Procalcitonin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/mL,"Procalcitonin [Mass/volume] in Serum or Plasma",ng/mL,2.09,false,Procalcitonin:MCnc:Pt:Ser/Plas:Qn:
+18438-2,"Propionylcarnitine (C3)",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Observation,,,"Propionylcarnitine (C3) [Mass/volume] in Serum or Plasma",,1.0l,false,"Propionylcarnitine (C3):MCnc:Pt:Ser/Plas:Qn:"
+30551-6,"Propionylcarnitine (C3)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Propionylcarnitine (C3) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Propionylcarnitine (C3):SCnc:Pt:Ser/Plas:Qn:"
+3991-7,Propranolol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Propranolol [Presence] in Serum or Plasma",,1.0,false,Propranolol:PrThr:Pt:Ser/Plas:Ord:
+14890-8,Progesterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Progesterone [Moles/volume] in Serum or Plasma",nmol/L,1.0k,false,Progesterone:SCnc:Pt:Ser/Plas:Qn:
+2885-2,Protein,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,g/L;g/dL,"Protein [Mass/volume] in Serum or Plasma",g/dL,1.0,false,Protein:MCnc:Pt:Ser/Plas:Qn:
+104267-0,Protein.glycosylated,PrThr,Pt,Ser/Plas,Ord,,CHEM,2.77,ACTIVE,1,Observation,,,"Protein.glycosylated [Presence] in Serum or Plasma",,2.77,false,Protein.glycosylated:PrThr:Pt:Ser/Plas:Ord:
+4000-6,Protriptyline,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Protriptyline [Presence] in Serum or Plasma",,1.0,false,Protriptyline:PrThr:Pt:Ser/Plas:Ord:
+60143-5,Pendimethalin,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ug/mL,"Pendimethalin [Mass/volume] in Serum or Plasma",ug/mL,2.34,false,Pendimethalin:MCnc:Pt:Ser/Plas:Qn:
+12338-0,Pentachlorophenol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Pentachlorophenol [Presence] in Serum or Plasma",,1.0j-a,false,Pentachlorophenol:PrThr:Pt:Ser/Plas:Ord:
+48366-9,Pentadecanoate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,umol/L,"Pentadecanoate [Moles/volume] in Serum or Plasma",umol/L,2.21,false,Pentadecanoate:SCnc:Pt:Ser/Plas:Qn:
+60146-8,Pentane,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ug/mL,"Pentane [Mass/volume] in Serum or Plasma",ug/mL,2.34,false,Pentane:MCnc:Pt:Ser/Plas:Qn:
+2739-1,Pepsinogen,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,ACTIVE,1,Both,,ng/mL,"Pepsinogen [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Pepsinogen:MCnc:Pt:Ser/Plas:Qn:
+49858-4,"Peptide YY",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,pg/ml,"Peptide YY [Mass/volume] in Serum or Plasma",pg/mL,2.22,false,"Peptide YY:MCnc:Pt:Ser/Plas:Qn:"
+26846-6,Perphenazine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Perphenazine [Presence] in Serum or Plasma",,2.00,false,Perphenazine:PrThr:Pt:Ser/Plas:Ord:
+50357-3,Phenolphthalein,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Phenolphthalein [Presence] in Serum or Plasma",,2.22,false,Phenolphthalein:PrThr:Pt:Ser/Plas:Ord:
+58793-1,Phytonadione,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,nmol/L,"Phytonadione [Moles/volume] in Serum or Plasma",nmol/L,2.32,false,Phytonadione:SCnc:Pt:Ser/Plas:Qn:
+79519-5,Pimelate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.54,ACTIVE,1,Both,,umol/L,"Pimelate [Moles/volume] in Serum or Plasma",umol/L,2.54,false,Pimelate:SCnc:Pt:Ser/Plas:Qn:
+12410-7,Pimozide,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Pimozide [Mass/volume] in Serum or Plasma",,1.0j-a,false,Pimozide:MCnc:Pt:Ser/Plas:Qn:
+100351-6,Pioglitazone,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,Qualitative,"Pioglitazone [Presence] in Serum or Plasma",ng/mL,2.73,false,Pioglitazone:PrThr:Pt:Ser/Plas:Ord:
+2806-8,Pipecolate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,DISCOURAGED,1,Both,,,"Pipecolate [Mass/volume] in Serum or Plasma",,1.0,false,Pipecolate:MCnc:Pt:Ser/Plas:Qn:
+32334-5,Pipecolate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Pipecolate [Moles/volume] in Serum or Plasma",umol/L,2.07,false,Pipecolate:SCnc:Pt:Ser/Plas:Qn:
+10549-4,Pirmenol,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ng/mL,"Pirmenol [Mass/volume] in Serum or Plasma",ng/mL,1.0i,false,Pirmenol:MCnc:Pt:Ser/Plas:Qn:
+104551-7,"Ovarian malignancy (ROMA) panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.78,ACTIVE,1,Order,,,"Ovarian malignancy (ROMA) panel - Serum or Plasma",,2.78,true,"Ovarian malignancy (ROMA) panel:-:Pt:Ser/Plas:-:"
+2718-5,Oxytocin,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,pg/mL,"Oxytocin [Mass/volume] in Serum or Plasma",pg/mL,1.0,false,Oxytocin:MCnc:Pt:Ser/Plas:Qn:
+80155-5,"Soluble CD27",ACnc,Pt,Ser/Plas,Qn,,CHEM,2.68,ACTIVE,1,Both,,"arb U/mL","Soluble CD27 [Units/volume] in Serum or Plasma",[arb'U]/mL,2.54,false,"Soluble CD27:ACnc:Pt:Ser/Plas:Qn:"
+5736-4,Strontium,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/L,"Strontium [Mass/volume] in Serum or Plasma",ug/L,1.0,false,Strontium:MCnc:Pt:Ser/Plas:Qn:
+17659-4,Strychnine,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Strychnine [Units/volume] in Serum or Plasma",[arb'U]/mL,1.0l,false,Strychnine:ACnc:Pt:Ser/Plas:Qn:
+29124-5,Stavudine,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,DISCOURAGED,1,Both,,,"Stavudine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Stavudine:ACnc:Pt:Ser/Plas:Qn:
+30560-7,"Stearoylcarnitine (C18)",SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"umol/L;mcmol/L; nmol/mL","Stearoylcarnitine (C18) [Moles/volume] in Serum or Plasma",umol/L,2.04,false,"Stearoylcarnitine (C18):SCnc:Pt:Ser/Plas:Qn:"
+74887-1,Stigmastanol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,pmol/L,"Stigmastanol [Moles/volume] in Serum or Plasma",pmol/L,2.48,false,Stigmastanol:SCnc:Pt:Ser/Plas:Qn:
+75073-7,Suberate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.52,ACTIVE,1,Both,,umol/L,"Suberate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Suberate:SCnc:Pt:Ser/Plas:Qn:
+35871-3,Succinate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Succinate [Moles/volume] in Serum or Plasma",umol/L,2.13,false,Succinate:SCnc:Pt:Ser/Plas:Qn:
+75079-4,Succinylacetone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,umol/L,"Succinylacetone [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Succinylacetone:SCnc:Pt:Ser/Plas:Qn:
+75145-3,Succinyladenosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.48,ACTIVE,1,Both,,nmol/L,"Succinyladenosine [Moles/volume] in Serum or Plasma",nmol/L,2.48,false,Succinyladenosine:SCnc:Pt:Ser/Plas:Qn:
+60176-5,Sulfamethizole,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.70,ACTIVE,1,Both,,ug/mL,"Sulfamethizole [Mass/volume] in Serum or Plasma",ug/mL,2.34,false,Sulfamethizole:MCnc:Pt:Ser/Plas:Qn:
+20974-2,Sulfate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.44,ACTIVE,1,Both,,mg/dL,"Sulfate [Mass/volume] in Serum or Plasma",mg/dL,1.0m,false,Sulfate:MCnc:Pt:Ser/Plas:Qn:
+47939-4,Sulfocysteine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Observation,,umol/L,"Sulfocysteine [Moles/volume] in Serum or Plasma",umol/L,2.21,false,Sulfocysteine:SCnc:Pt:Ser/Plas:Qn:
+15374-2,Sulfonylurea,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Sulfonylurea [Presence] in Serum or Plasma",,1.0k,false,Sulfonylurea:PrThr:Pt:Ser/Plas:Ord:
+104315-7,Sunitinib,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.77,ACTIVE,1,Both,,mg/dL,"Sunitinib [Mass/volume] in Serum or Plasma",mg/dL,2.77,false,Sunitinib:MCnc:Pt:Ser/Plas:Qn:
+101828-2,"Synthetic glucocorticoid panel",-,Pt,Ser/Plas,-,,PANEL.CHEM,2.76,ACTIVE,1,Order,,,"Synthetic glucocorticoid panel - Serum or Plasma",,2.75,true,"Synthetic glucocorticoid panel:-:Pt:Ser/Plas:-:"
+103139-2,"Systemic lupus Ab panel",-,Pt,Ser/Plas,-,,PANEL.SERO,2.75,ACTIVE,1,Order,,,"Systemic lupus Ab panel - Serum or Plasma",,2.75,true,"Systemic lupus Ab panel:-:Pt:Ser/Plas:-:"
+13580-6,Temazepam,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Temazepam [Presence] in Serum or Plasma",,1.0k,false,Temazepam:PrThr:Pt:Ser/Plas:Ord:
+106865-9,Tilidine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.79,ACTIVE,1,Both,,g/mL,"Tilidine [Mass/volume] in Serum or Plasma",g/mL,2.79,false,Tilidine:MCnc:Pt:Ser/Plas:Qn:
+104107-8,Tramadol,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.77,ACTIVE,1,Observation,,pos/neg,"traMADol [Presence] in Serum or Plasma",,2.77,false,Tramadol:PrThr:Pt:Ser/Plas:Ord:
+22674-6,Transferrin,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Transferrin [Moles/volume] in Serum or Plasma",umol/L,1.0n,false,Transferrin:SCnc:Pt:Ser/Plas:Qn:
+3002-3,Thiocyanate,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,"mcg/mL; mg/dL","Thiocyanate [Mass/volume] in Serum or Plasma",ug/mL,1.0,false,Thiocyanate:MCnc:Pt:Ser/Plas:Qn:
+3003-1,Thiocyanate,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Thiocyanate [Presence] in Serum or Plasma",,1.0,false,Thiocyanate:PrThr:Pt:Ser/Plas:Ord:
+14916-1,Thiocyanate,SCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.34,ACTIVE,1,Both,,mmol/L,"Thiocyanate [Moles/volume] in Serum or Plasma",mmol/L,1.0k,false,Thiocyanate:SCnc:Pt:Ser/Plas:Qn:
+12707-6,Thorium,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ng/mL,"Thorium [Mass/volume] in Serum or Plasma",ng/mL,1.0j-a,false,Thorium:MCnc:Pt:Ser/Plas:Qn:
+47791-9,Tocopherols,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/L,"Tocopherols [Mass/volume] in Serum or Plasma",mg/L,2.21,false,Tocopherols:MCnc:Pt:Ser/Plas:Qn:
+29747-3,Tocopherols,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,umol/L,"Tocopherols [Moles/volume] in Serum or Plasma",umol/L,2.03,false,Tocopherols:SCnc:Pt:Ser/Plas:Qn:
+21566-5,TOLAZamide,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"TOLAZamide [Presence] in Serum or Plasma",,1.0m,false,TOLAZamide:PrThr:Pt:Ser/Plas:Ord:
+21567-3,TOLBUTamide,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"TOLBUTamide [Presence] in Serum or Plasma",,1.0m,false,TOLBUTamide:PrThr:Pt:Ser/Plas:Ord:
+53803-3,"Transferrin.carbohydrate deficient panel",-,-,Ser/Plas,-,,PANEL.CHEM,2.73,ACTIVE,1,Order,,,"Transferrin.carbohydrate deficient panel - Serum or Plasma",,2.26,true,"Transferrin.carbohydrate deficient panel:-:-:Ser/Plas:-:"
+50025-6,"Volatiles panel",-,Pt,Ser/Plas,-,,PANEL.DRUG/TOX,2.42,ACTIVE,1,Order,,,"Volatiles panel - Serum or Plasma",,2.22,true,"Volatiles panel:-:Pt:Ser/Plas:-:"
+17751-9,Tryptamine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.42,ACTIVE,1,Both,,ug/mL,"Tryptamine [Mass/volume] in Serum or Plasma",ug/mL,1.0l,false,Tryptamine:MCnc:Pt:Ser/Plas:Qn:
+41870-7,Tryptase.mature,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"arb U/L","Tryptase.mature [Enzymatic activity/volume] in Serum or Plasma",U/L,2.16,false,Tryptase.mature:CCnc:Pt:Ser/Plas:Qn:
+27334-2,Tryptophan,ACnc,Pt,Ser/Plas,Qn,,CHEM,2.69,DISCOURAGED,1,Observation,,,"Tryptophan [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Tryptophan:ACnc:Pt:Ser/Plas:Qn:
+3070-0,Tryptophan,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Tryptophan [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Tryptophan:MCnc:Pt:Ser/Plas:Qn:
+20659-9,Tryptophan,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Observation,,"mcmol/dL; mcmol/L; umol/L","Tryptophan [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Tryptophan:SCnc:Pt:Ser/Plas:Qn:
+20660-7,Tyrosine,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"mcmol/dL; mcmol/L; umol/L","Tyrosine [Moles/volume] in Serum or Plasma",umol/L,1.0m,false,Tyrosine:SCnc:Pt:Ser/Plas:Qn:
+3084-1,Urate,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,mg/dL,"Urate [Mass/volume] in Serum or Plasma",mg/dL,1.0,false,Urate:MCnc:Pt:Ser/Plas:Qn:
+14933-6,Urate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/L,"Urate [Moles/volume] in Serum or Plasma",umol/L,1.0k,false,Urate:SCnc:Pt:Ser/Plas:Qn:
+42571-0,Urea,MSCnc,Pt,Ser/Plas,Qn,,CHEM,2.42,DISCOURAGED,1,Both,,,"Urea [Mass or Moles/volume] in Serum or Plasma",,2.16,false,Urea:MSCnc:Pt:Ser/Plas:Qn:
+60197-1,Triclopyr,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/mL,"Triclopyr [Mass/volume] in Serum or Plasma",ug/mL,2.34,false,Triclopyr:MCnc:Pt:Ser/Plas:Qn:
+45146-8,Triflupromazine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Triflupromazine [Presence] in Serum or Plasma",,2.17,false,Triflupromazine:PrThr:Pt:Ser/Plas:Ord:
+90979-6,Vortioxetine,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.65,ACTIVE,1,Both,,ng/mL,"Vortioxetine [Mass/volume] in Serum or Plasma",ng/mL,2.65,false,Vortioxetine:MCnc:Pt:Ser/Plas:Qn:
+3060-1,Trypsin,CCnc,Pt,Ser/Plas,Qn,,CHEM,2.68,ACTIVE,1,Both,,"arb U/L","Trypsin [Enzymatic activity/volume] in Serum or Plasma",U/L,1.0,false,Trypsin:CCnc:Pt:Ser/Plas:Qn:
+3064-3,Trypsin+Trypsinogen,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/mL,"Trypsin+Trypsinogen [Mass/volume] in Serum or Plasma",ng/mL,1.0,false,Trypsin+Trypsinogen:MCnc:Pt:Ser/Plas:Qn:
+60539-4,Tryptase.beta,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.70,ACTIVE,1,Both,,ng/mL,"Tryptase.beta [Mass/volume] in Serum or Plasma",ng/mL,2.34,false,Tryptase.beta:MCnc:Pt:Ser/Plas:Qn:
+12483-4,Tungsten,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.73,ACTIVE,1,Both,,,"Tungsten [Presence] in Serum or Plasma",,1.0j-a,false,Tungsten:PrThr:Pt:Ser/Plas:Ord:
+51987-6,"Ubiquinone 10",PrThr,Pt,Ser/Plas,Ord,,CHEM,2.73,ACTIVE,1,Both,,,"Coenzyme Q10 [Presence] in Serum or Plasma",,2.24,false,"Ubiquinone 10:PrThr:Pt:Ser/Plas:Ord:"
+55159-8,Ursodeoxycholate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,umol/l,"Ursodeoxycholate [Moles/volume] in Serum or Plasma",umol/L,2.27,false,Ursodeoxycholate:SCnc:Pt:Ser/Plas:Qn:
+75076-0,Vanillate,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.67,ACTIVE,1,Both,,umol/L,"Vanillate [Moles/volume] in Serum or Plasma",umol/L,2.48,false,Vanillate:SCnc:Pt:Ser/Plas:Qn:
+13588-9,Venlafaxine,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Venlafaxine [Presence] in Serum or Plasma",,1.0k,false,Venlafaxine:PrThr:Pt:Ser/Plas:Ord:
+29125-2,Zalcitabine,ACnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.69,ACTIVE,1,Both,,,"Zalcitabine [Units/volume] in Serum or Plasma",[arb'U]/mL,2.00,false,Zalcitabine:ACnc:Pt:Ser/Plas:Qn:
+27032-2,Zirconium,MCnc,Pt,Ser/Plas,Qn,,DRUG/TOX,2.73,ACTIVE,1,Both,,ug/dL,"Zirconium [Mass/volume] in Serum or Plasma",ug/dL,2.00,false,Zirconium:MCnc:Pt:Ser/Plas:Qn:
+40937-5,Zinc,PrThr,Pt,Ser/Plas,Ord,,DRUG/TOX,2.56,ACTIVE,1,Both,,,"Zinc [Presence] in Serum or Plasma",,2.15,false,Zinc:PrThr:Pt:Ser/Plas:Ord:
+53835-5,"1,5-Anhydroglucitol",MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ug/mL,"1,5-Anhydroglucitol [Mass/volume] in Serum or Plasma",ug/mL,2.26,false,"1,5-Anhydroglucitol:MCnc:Pt:Ser/Plas:Qn:"
+1656-8,11-Deoxycorticosterone,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,ng/dL,"11-Deoxycorticosterone [Mass/volume] in Serum or Plasma",ng/dL,1.0,false,11-Deoxycorticosterone:MCnc:Pt:Ser/Plas:Qn:
+25561-2,11-Deoxycorticosterone,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.40,ACTIVE,1,Both,,pmol/L,"11-Deoxycorticosterone [Moles/volume] in Serum or Plasma",pmol/L,2.00,false,11-Deoxycorticosterone:SCnc:Pt:Ser/Plas:Qn:
+1657-6,11-Deoxycortisol,MCnc,Pt,Ser/Plas,Qn,,CHEM,2.73,ACTIVE,1,Both,,"mcg/dL; ng/dL","11-Deoxycortisol [Mass/volume] in Serum or Plasma",ng/dL;ug/mL,1.0,false,11-Deoxycortisol:MCnc:Pt:Ser/Plas:Qn:
+14567-2,11-Deoxycortisol,SCnc,Pt,Ser/Plas,Qn,,CHEM,2.34,ACTIVE,1,Both,,nmol/L,"11-Deoxycortisol [Moles/volume] in Serum or Plasma",nmol/L,1.0k,false,11-Deoxycortisol:SCnc:Pt:Ser/Plas:Qn:
